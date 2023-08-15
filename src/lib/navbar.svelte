@@ -1,10 +1,10 @@
-<div class="navbar bg-white p-10 sticky top-0">
-	<div class="max-w-[1200px] m-auto flex justify-between">
+<div class="navbar bg-none p-10 sticky top-0 z-[10]">
+	<div class="max-w-[1300px] m-auto flex justify-between">
 		<div class="flex-none">
 			<!-- svelte-ignore a11y-missing-attribute -->
-			<img src="INNOVUS-LOGO(White).png" alt="" width="230px" />
+			<img src="INNOVUS-LOGO(White).png" alt="" width="250px" />
 		</div>
-		<div class="hidden lg:block flex-1 font-medium ml-64">
+		<div class="hidden lg:block flex-1 font-medium ml-96">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<div class="flex justify-between min-w-[500px] font-bold">
 				<div class="btn btn-ghost">ABOUT</div>
