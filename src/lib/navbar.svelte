@@ -1,13 +1,37 @@
-<div class="navbar bg-none p-10 sticky top-0 z-[10]">
+<script>
+	import { goto } from '$app/navigation';
+</script>
+
+<div class="navbar bg-white p-10 sticky top-0 z-20">
 	<div class="max-w-[1300px] m-auto flex justify-between">
 		<div class="flex-none">
 			<!-- svelte-ignore a11y-missing-attribute -->
-			<img src="INNOVUS-LOGO(White).png" alt="" width="250px" />
+			<!-- svelte-ignore a11y-click-events-have-key-events -->
+			<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+			<img
+				src="INNOVUS-LOGO(White).png"
+				alt=""
+				width="250px"
+				class="cursor-pointer"
+				on:click={() => {
+					goto('/');
+				}}
+			/>
 		</div>
 		<div class="hidden lg:block flex-1 font-medium ml-96">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<div class="flex justify-between min-w-[500px] font-bold">
-				<div class="btn btn-ghost">ABOUT</div>
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<!-- svelte-ignore a11y-no-static-element-interactions -->
+				<div
+					class="btn btn-ghost"
+					on:click={() => {
+						goto('/about');
+					}}
+				>
+					ABOUT
+				</div>
 				<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 				<div class="dropdown dropdown-hover">
 					<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
@@ -32,7 +56,7 @@
 						tabindex="0"
 						class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
 					>
-						<li><a>WEB DEVELOPMENT</a></li>
+						<li><a href="../services/webdevelopment">WEB DEVELOPMENT</a></li>
 						<li><a>SEO</a></li>
 						<li><a>DIGITAL MARKETING</a></li>
 						<li><a>CREATIVE MEDIA</a></li>

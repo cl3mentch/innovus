@@ -318,37 +318,60 @@
 	</div>
 </div>
 <hr class="w-[50vw] m-auto" />
-<div class="flex flex-col items-center justify-between bg-[#F6F6F6] px-5 py-20">
-	<div>
-		<ul class="step-list">
-			<li class="active">1</li>
-			<li>2</li>
-			<li>3</li>
-			<li>4</li>
-		</ul>
+<div class="flex justify-center bg-[#F6F6F6] px-5 py-20">
+	<div class="w-1/3">
+		<p class="font-black text-7xl">Our Values</p>
+	</div>
+	<div class="w-1/4">
+		<div class="flex items-center mb-5">
+			<div class="number min-w-[40px]">1</div>
+			<div class="ml-5">
+				<p class="font-bold text-xl">Customization</p>
+				<p class="text-[#838383]">
+					We provide tailored solutions to fit the unique needs of each client.
+				</p>
+			</div>
+		</div>
+		<div class="flex items-center mb-5">
+			<div class="number min-w-[40px]">2</div>
+			<div class="ml-5">
+				<p class="font-bold text-xl">Innovation</p>
+				<p class="text-[#838383]">Pioneering new ideas and approaches to drive progress</p>
+			</div>
+		</div>
+		<div class="flex items-center mb-5">
+			<div class="number min-w-[40px]">3</div>
+			<div class="ml-5">
+				<p class="font-bold text-xl">Quality of Service</p>
+				<p class="text-[#838383]">
+					Our dedication to delivering the highest quality solutions drives every aspect of our
+					work.
+				</p>
+			</div>
+		</div>
+		<div class="flex items-center mb-5">
+			<div class="number min-w-[40px]">4</div>
+			<div class="ml-5">
+				<p class="font-bold text-xl">Success Focus</p>
+				<p class="text-[#838383]">
+					Every step we take should bring our clients closer to their goals. Our unwavering
+					dedication to a success-focused approach drives everything that we do.
+				</p>
+			</div>
+		</div>
 	</div>
 </div>
 
 <style>
-	.step-list {
-		display: block;
-		margin: 1em;
-		list-style: none;
-	}
-
-	.step-list li {
-		list-style: none;
-		cursor: pointer;
-		display: block;
+	.number {
 		border-radius: 50%;
-		background: #ddd;
+		background: #fbbd23;
 		width: 40px;
 		height: 40px;
 		line-height: 27px;
 		text-align: center;
-		margin: 50px 0;
+		margin: 0;
 		padding: 5px;
-		position: relative;
 		font-weight: bold;
 		color: #fff;
 		font-size: 1.2em;
@@ -356,33 +379,6 @@
 		text-shadow: 0 1px 1px #555;
 		box-shadow: inset 0 0 2px #ccc;
 		transition: all 300ms ease;
-	}
-
-	.step-list li.active {
-		border-color: none;
-		background: #fac235;
-	}
-
-	.step-list li.active:before {
-		background: green !important;
-	}
-
-	.step-list li.active + li:before {
-		background: green !important;
-	}
-
-	.step-list li:last-child::after {
-		display: none; /* Hide separator line after the last li */
-	}
-	.step-list li::after {
-		content: '';
-		display: block;
-		height: 50px;
-		width: 2px;
-		background: #cbcbcb;
-		position: absolute;
-		top: 100%;
-		left: 50%;
 	}
 
 	.particlecon {
