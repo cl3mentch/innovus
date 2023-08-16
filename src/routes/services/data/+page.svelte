@@ -1,7 +1,7 @@
-<div class="max-w-[1260px] m-auto mb-52">
+<div class="max-w-[1300px] m-auto mb-52">
 	<div class="flex justify-between">
 		<div class="w-1/2 mt-10 mr-10">
-			<p class="service text-sm font-semibold w-1/2">S E R V I C E S</p>
+			<p class="service text-sm font-semibold w-1/2">S E R V I C E</p>
 			<p class="text-5xl font-bold mt-5 leading-tight">
 				Data & Business<br /> <span class="text-[#3EC6EC]">Analysis</span>
 			</p>

@@ -1,4 +1,4 @@
-<div class="max-w-[1260px] m-auto mb-52">
+<div class="max-w-[1300px] m-auto mb-52">
 	<div class="flex justify-between my-20">
 		<p class="text-3xl font-bold w-1/2">Website <br />Development</p>
 		<p class="w-2/3">
