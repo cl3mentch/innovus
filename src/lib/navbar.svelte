@@ -57,14 +57,32 @@
 						class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
 					>
 						<li><a href="../services/webdevelopment">WEB DEVELOPMENT</a></li>
-						<li><a>SEO</a></li>
-						<li><a>DIGITAL MARKETING</a></li>
-						<li><a>CREATIVE MEDIA</a></li>
-						<li><a>DATA & BUSINESS ANALYSIS</a></li>
+						<li><a href="../services/SEO">SEO</a></li>
+						<li><a href="../services/digitalmarketing">DIGITAL MARKETING</a></li>
+						<li><a href="../services/creativemedia">CREATIVE MEDIA</a></li>
+						<li><a href="../services/data">DATA & BUSINESS ANALYSIS</a></li>
 					</ul>
 				</div>
-				<div class="btn btn-ghost">PORTFOLIO</div>
-				<div class="btn btn-ghost">CONTACT</div>
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<!-- svelte-ignore a11y-no-static-element-interactions -->
+				<div
+					class="btn btn-ghost"
+					on:click={() => {
+						goto('/portfolio');
+					}}
+				>
+					PORTFOLIO
+				</div>
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<!-- svelte-ignore a11y-no-static-element-interactions -->
+				<div
+					class="btn btn-ghost"
+					on:click={() => {
+						goto('/contact');
+					}}
+				>
+					CONTACT
+				</div>
 			</div>
 		</div>
 		<label class="btn btn-circle btn-md swap swap-rotate ml-10 btn-ghost">
@@ -93,7 +111,7 @@
 		</label>
 
 		<!--HAMBURGER ICON-->
-		<label class="btn btn-circle btn-md ml-3 swap swap-rotate btn-ghost">
+		<label class="btn btn-circle btn-ghost swap swap-rotate">
 			<!-- this hidden checkbox controls the state -->
 			<input type="checkbox" />
 
@@ -119,6 +137,5 @@
 				/></svg
 			>
 		</label>
-		<!--THEME ICON-->
 	</div>
 </div>

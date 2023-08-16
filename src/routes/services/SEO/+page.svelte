@@ -1,6 +1,6 @@
 <div class="max-w-[1260px] m-auto mb-52">
 	<div class="flex justify-between my-20">
-		<p class="text-3xl font-bold w-1/2">Website <br />Development</p>
+		<p class="text-3xl font-bold w-1/2">Search Engine <br> Optimization</p>
 		<p class="w-2/3">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, reiciendis eligendi?
 			Officia inventore officiis possimus molestiae aliquid dolorem. Dignissimos distinctio aliquam
@@ -12,7 +12,7 @@
 	<div class="flex justify-between mt-44">
 		<div class="w-1/2">
 			<div
-				class="bg-gradient-to-r from-[#51C5D4] to-[#2BC1E0] max-w-[120px] rounded-lg text-center py-2 text-white text-sm"
+				class="bg-gradient-to-r from-[#51C5D4] to-[#2BC1E0] max-w-[120px] rounded-lg p-2 text-white"
 			>
 				W E B S I T E
 			</div>
@@ -43,7 +43,7 @@
 
 		<div class="w-1/2">
 			<div
-				class="bg-gradient-to-r from-[#51C5D4] to-[#2BC1E0] max-w-[190px] rounded-lg py-2 px-3 text-white text-center text-sm"
+				class="bg-gradient-to-r from-[#51C5D4] to-[#2BC1E0] max-w-[200px] rounded-lg p-2 px-3 text-white"
 			>
 				A D M I N <span class="inline-block ml-2">S Y S T E M</span>
 			</div>
