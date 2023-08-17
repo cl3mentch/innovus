@@ -7,16 +7,14 @@
 	<div class="parallax relative">
 		<div class="z-10 absolute top-[76%] flex justify-center px-5">
 			<div class="w-[55%]">
-				<p
-					class="text-9xl font-black bg-gradient-to-r from-[#51C5D4] to-[#2BC1E0] bg-clip-text text-transparent mr-10 text-left"
-				>
+				<p class="text-9xl font-black bg-[#41e2fb] bg-clip-text text-transparent mr-10 text-left">
 					WE<br />ARE <br />
 					<span class="bg-gradient-to-r from-[#FABD23] to-[#EFA83C] bg-clip-text text-transparent"
 						>INNOVUS</span
 					>
 				</p>
 			</div>
-			<div class="bg-white w-[45%] p-10 rounded-lg shadow-lg text-lg font-light">
+			<div class="subbg-color w-[45%] p-10 rounded-lg shadow-lg text-lg font-light">
 				<small>
 					<p>
 						Innovus is your dedicated partner for tailored data and digital solutions that drive
@@ -43,6 +41,7 @@
 		</div>
 	</div>
 </div>
+
 <!-- <div class="hidden">
 	<div class="rounded-lg p-10 shadow-xl m-auto max-w-[1280px]">
 		<div>

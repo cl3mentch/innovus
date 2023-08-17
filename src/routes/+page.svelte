@@ -61,17 +61,17 @@
 	};
 </script>
 
-<div class="particlecon relative">
+<div class="bg-color transition h-[90vh] relative">
 	<Particles
 		id="tsparticles"
-		class="foo bar absolute w-full h-full transition ease-in-out"
+		class="foo bar absolute w-full h-full"
 		style=""
 		options={particlesConfig}
 		on:particlesLoaded={onParticlesLoaded}
 		{particlesInit}
 	/>
 	<div
-		class="font-extrabold max-w-[1300px] m-auto text-black py-10 pt-20 relative flex justify-between"
+		class="font-extrabold max-w-[1300px] m-auto text-color py-10 pt-20 relative flex justify-between"
 	>
 		<div class="text-5xl">
 			<div class="py-6">Where Technology</div>
@@ -84,7 +84,7 @@
 		</div>
 	</div>
 </div>
-<div class="flex flex-wrap">
+<div class="flex flex-wrap text-color icon-color">
 	<div class="w-2/5">
 		<!-- svelte-ignore a11y-img-redundant-alt -->
 		<img
@@ -93,14 +93,14 @@
 			class="object-cover w-full h-full"
 		/>
 	</div>
-	<div class="w-3/5 bg-[#F6F6F6] my-14">
+	<div class="w-3/5 subbg-color my-14">
 		<div class="flex items-center my-36">
 			<p class="reversefont font-medium text-2xl mx-20">Our Services</p>
 			<p class="max-w-[200px] text-xl">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ab!
 			</p>
 		</div>
-		<ul class=" text-3xl font-black mb-52">
+		<ul class="text-3xl font-black mb-52">
 			<li class="flex items-center mt-10">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -147,7 +147,6 @@
 				>
 					<g
 						transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-						fill="#000000"
 						stroke="none"
 					>
 						<path
@@ -207,11 +206,7 @@
 					viewBox="0 0 512.000000 512.000000"
 					preserveAspectRatio="xMidYMid meet"
 				>
-					<g
-						transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-						fill="#000000"
-						stroke="none"
-					>
+					<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)">
 						<path
 							d="M287 5109 c-103 -24 -206 -111 -254 -214 l-28 -60 0 -645 0 -645 33 -67 c41 -83 119 -158 200 -189 53 -22 75 -24 300 -27 l242 -4 0 -698 0 -698 -242 -4 c-225 -3 -247 -5 -300 -27 -81 -31 -159 -106 -200 -189 l-33 -67 0 -645 0 -645 28 -60 c37 -79 114 -156 191 -192 l61 -28 854 -3 c760 -2 860 -1 910 14 109 31 195 105 243 210 21 46 23 66 28 299 l5 250 235 0 235 0 5 -250 c5 -233 7 -253 28 -299 48 -105 134 -179 243 -210 50 -15 150 -16 910 -14 l854 3 65 31 c82 39 144 101 184 184 l31 65 0 645 0 645 -33 67 c-41 83 -119 158 -200 189 -53 22 -75 24 -299 27 l-243 4 0 308 0 309 -26 20 c-30 24 -43 26 -77 10 -44 -20 -47 -43 -47 -354 l0 -295 -23 0 c-13 0 -47 15 -77 33 l-55 32 0 635 0 635 55 32 c30 18 64 33 77 33 l22 0 3 -251 c3 -250 3 -251 27 -270 30 -25 76 -24 101 1 19 19 20 33 20 269 l0 249 243 4 c224 3 246 5 299 27 81 31 159 106 200 189 l33 67 0 645 0 645 -28 61 c-36 77 -113 154 -192 191 l-60 28 -854 3 c-942 3 -912 5 -1013 -60 -61 -39 -105 -89 -137 -158 -25 -54 -26 -62 -31 -305 l-5 -250 -235 0 -235 0 -5 250 c-5 232 -7 254 -27 298 -48 104 -128 175 -235 209 -55 16 -101 18 -537 18 l-478 0 -21 -23 c-31 -33 -29 -80 4 -106 26 -21 36 -21 499 -21 l473 0 53 -28 c34 -17 65 -44 84 -71 l30 -43 3 -625 2 -624 -26 -49 c-29 -53 -80 -94 -135 -110 -19 -6 -127 -10 -242 -10 -222 0 -254 -6 -306 -53 -34 -31 -61 -95 -61 -144 0 -24 -2 -43 -5 -43 -3 0 -73 45 -157 101 -83 56 -167 109 -187 118 -30 13 -90 17 -386 21 -338 5 -351 6 -392 27 -51 27 -96 82 -112 132 -15 53 -16 1189 0 1246 15 53 91 129 144 144 23 6 124 11 238 11 109 0 206 4 216 10 10 5 24 22 30 39 10 24 10 34 -3 59 -8 16 -23 32 -31 36 -25 9 -425 5 -468 -5z m4574 -174 c24 -17 57 -50 74 -74 l30 -43 3 -601 c2 -430 0 -614 -9 -643 -14 -54 -60 -109 -112 -137 -41 -21 -54 -22 -392 -27 -296 -4 -356 -8 -386 -21 -20 -9 -104 -62 -187 -118 -84 -56 -154 -101 -157 -101 -3 0 -5 18 -5 40 0 79 -44 148 -115 181 -35 16 -67 19 -250 19 -116 0 -225 4 -244 10 -55 16 -106 57 -135 110 l-26 49 2 624 3 625 30 43 c19 27 50 54 84 71 l54 28 848 -2 847 -3 43 -30z m-2063 -822 l-3 -78 -235 0 -235 0 -3 78 -3 77 241 0 241 0 -3 -77z m4 -405 c3 -163 5 -176 30 -230 35 -75 104 -142 186 -181 l67 -32 230 -3 c129 -2 235 -8 242 -13 7 -7 13 -56 15 -135 3 -118 4 -127 27 -145 13 -10 34 -19 46 -19 13 0 71 31 129 70 l106 70 0 -530 0 -530 -106 70 c-58 39 -116 70 -129 70 -12 0 -33 -9 -46 -19 -23 -18 -24 -27 -27 -145 -2 -79 -8 -128 -15 -135 -7 -5 -113 -11 -242 -13 l-230 -3 -67 -32 c-82 -39 -151 -106 -186 -181 -25 -54 -27 -67 -30 -229 l-3 -173 -239 0 -239 0 -3 172 c-3 163 -5 176 -30 230 -35 75 -104 142 -186 181 l-67 32 -230 3 c-129 2 -235 8 -242 13 -7 7 -13 56 -15 135 -3 118 -4 127 -27 145 -13 10 -34 19 -46 19 -13 0 -71 -31 -129 -70 l-106 -70 0 530 0 530 106 -70 c58 -39 116 -70 129 -70 12 0 33 9 46 19 23 18 24 27 27 145 2 79 8 128 15 135 7 5 113 11 242 13 l230 3 67 32 c82 39 151 106 186 181 25 54 27 67 30 230 l3 172 239 0 239 0 3 -172z m-1772 -481 l55 -32 0 -635 0 -635 -55 -32 c-30 -18 -64 -33 -77 -33 l-23 0 0 700 0 700 23 0 c13 0 47 -15 77 -33z m370 -1317 c0 -79 44 -148 115 -181 35 -16 67 -19 250 -19 116 0 225 -4 244 -10 55 -16 106 -57 135 -110 l26 -49 -2 -624 -3 -625 -30 -43 c-19 -27 -50 -54 -84 -71 l-53 -28 -827 0 c-552 0 -839 4 -864 11 -53 14 -132 93 -146 144 -16 57 -15 1194 0 1246 16 50 61 105 112 132 41 21 54 22 392 27 409 6 360 -6 580 143 77 53 143 96 148 96 4 1 7 -17 7 -39z m2482 -61 c83 -56 167 -109 187 -118 30 -13 90 -17 386 -21 338 -5 351 -6 392 -27 51 -27 96 -82 112 -132 16 -56 16 -1188 -1 -1245 -16 -54 -90 -128 -144 -144 -31 -9 -245 -12 -867 -12 l-825 0 -53 28 c-34 17 -65 44 -84 71 l-30 43 -3 625 -2 624 26 49 c29 53 80 94 135 110 19 6 128 10 244 10 183 0 215 3 250 19 71 33 115 102 115 181 0 22 2 40 5 40 3 0 73 -45 157 -101z m-1084 -841 l3 -78 -241 0 -240 0 0 73 c0 41 3 77 7 81 4 3 110 5 237 4 l231 -3 3 -77z"
 						/>
@@ -244,7 +239,7 @@
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					xmlns:xlink="http://www.w3.org/1999/xlink"
-					class="w-14 h-16 fill-[#404040]"
+					class="w-14 h-16"
 					version="1.1"
 					viewBox="0 0 101.38 101.379"
 					xml:space="preserve"
@@ -289,11 +284,11 @@
 		</ul>
 	</div>
 </div>
-<div class="h-[500px] flex items-center justify-center pt-20">
+<div class="h-[500px] flex items-center justify-center pt-20 text-color">
 	<p class="font-black text-7xl">What We Do</p>
 </div>
 
-<div class="bg-[#F6F6F6] ">
+<div class="subbg-color text-color">
 	<div class="flex justify-center items-center h-[800px]">
 		<div class="flex max-w-[1300px]">
 			<div class="mt-28">
@@ -320,7 +315,7 @@
 	</div>
 	<hr class="w-[1300px] m-auto" />
 </div>
-<div class=" bg-[#F6F6F6] px-5 py-40">
+<div class="subbg-color text-color px-5 py-40">
 	<div class="max-w-[1300px] flex justify-center m-auto">
 		<div class="w-2/4">
 			<p class="font-black text-7xl">Our Values</p>
@@ -385,10 +380,6 @@
 		transition: all 300ms ease;
 	}
 
-	.particlecon {
-		background-color: white;
-		height: 90vh;
-	}
 	.glow {
 		text-shadow: 0 0 20px #fff, 0 0 30px #39c3e4, 0 0 40px #39c3e4, 0 0 50px #39c3e4,
 			0 0 60px #39c3e4, 0 0 70px #39c3e4, 0 0 80px #39c3e4;

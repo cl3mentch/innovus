@@ -36,7 +36,7 @@
 			</form>
 		</div>
 		<div
-			class="w-1/3 shadow-lg rounded-3xl p-10 border sticky top-36 mb-5 mx-auto max-h-[650px] mt-10"
+			class="w-1/3 shadow-lg rounded-3xl p-10 border sticky top-36 mb-5 mx-auto max-h-[650px] mt-10 subbg-color"
 		>
 			<p class="text-2xl font-bold">Contact Info</p>
 			<div class="flex mt-5">

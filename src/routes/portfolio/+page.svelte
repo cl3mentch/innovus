@@ -14,12 +14,58 @@
 			return endValue;
 		}
 	}
+
+	let portfolios = [
+		{
+			title: 'Website',
+			img: 'https://img.freepik.com/free-psd/student-discounts-template-design_23-2150570805.jpg?w=1380&t=st=1692246158~exp=1692246758~hmac=485ce9b267010c6b731c76fb1869a5596f15d1c4f5849ad7f8f81c93385e2e6b',
+			catergory: 'Digital Marketing',
+			subcategory: 'Ecommerce Website'
+		},
+		{
+			title: 'Website',
+			img: 'https://img.freepik.com/free-psd/student-discounts-template-design_23-2150570805.jpg?w=1380&t=st=1692246158~exp=1692246758~hmac=485ce9b267010c6b731c76fb1869a5596f15d1c4f5849ad7f8f81c93385e2e6b',
+			catergory: 'Digital Marketing',
+			subcategory: 'Ecommerce Website'
+		},
+		{
+			title: 'Website',
+			img: 'https://img.freepik.com/free-psd/student-discounts-template-design_23-2150570805.jpg?w=1380&t=st=1692246158~exp=1692246758~hmac=485ce9b267010c6b731c76fb1869a5596f15d1c4f5849ad7f8f81c93385e2e6b',
+			catergory: 'Digital Marketing',
+			subcategory: 'Ecommerce Website'
+		},
+		{
+			title: 'Website',
+			img: 'https://img.freepik.com/free-psd/student-discounts-template-design_23-2150570805.jpg?w=1380&t=st=1692246158~exp=1692246758~hmac=485ce9b267010c6b731c76fb1869a5596f15d1c4f5849ad7f8f81c93385e2e6b',
+			catergory: 'Digital Marketing',
+			subcategory: 'Ecommerce Website'
+		},
+		{
+			title: 'Website',
+			img: 'https://img.freepik.com/free-psd/student-discounts-template-design_23-2150570805.jpg?w=1380&t=st=1692246158~exp=1692246758~hmac=485ce9b267010c6b731c76fb1869a5596f15d1c4f5849ad7f8f81c93385e2e6b',
+			catergory: 'Digital Marketing',
+			subcategory: 'Ecommerce Website'
+		},
+		{
+			title: 'Website',
+			img: 'https://img.freepik.com/free-psd/student-discounts-template-design_23-2150570805.jpg?w=1380&t=st=1692246158~exp=1692246758~hmac=485ce9b267010c6b731c76fb1869a5596f15d1c4f5849ad7f8f81c93385e2e6b',
+			catergory: 'Digital Marketing',
+			subcategory: 'Ecommerce Website'
+		},
+		{
+			title: 'Website',
+			img: 'https://img.freepik.com/free-psd/student-discounts-template-design_23-2150570805.jpg?w=1380&t=st=1692246158~exp=1692246758~hmac=485ce9b267010c6b731c76fb1869a5596f15d1c4f5849ad7f8f81c93385e2e6b',
+			catergory: 'Digital Marketing',
+			subcategory: 'Ecommerce Website'
+		}
+		
+	];
 </script>
 
 <svelte:window bind:scrollY={y} bind:innerHeight />
 
-<div id="content" class="bg-black">
-	<div id="home" class="sticky top-0">
+<body class="bg-black">
+	<div class="sticky top-0 h-[220vh]">
 		<div
 			class="flex justify-center"
 			style:transform="scale({calculate(y, 0, 1 * innerHeight, 1, 1.5)})"
@@ -38,16 +84,16 @@
 					src="https://v1.cdnpk.net/videvo_files/video/premium/video0293/large_watermarked/_Urban15_FPpreview.mp4"
 				/></video
 			>
+			<!-- <div
+				id="img-container"
+				class="flex justify-center items-center"
+				style:transform="scale({calculate(y, 0, 1 * innerHeight, 1, 1.5)})"
+				style:opacity={calculate(y, 0.7 * innerHeight, 1.8 * innerHeight, 1, 0)}
+			>
+			</div> -->
 		</div>
-		<!-- <div
-			id="img-container"
-			class="flex justify-center items-center"
-			style:transform="scale({calculate(y, 0, 1 * innerHeight, 1, 1.5)})"
-			style:opacity={calculate(y, 0.7 * innerHeight, 1.8 * innerHeight, 1, 0)}
-		>
-		</div> -->
 	</div>
-	<div class="bg-[#1E1E1E] min-h-[400px] w-full text-white flex items-center absolute">
+	<div class="bg-[#1E1E1E] min-h-[400px] w-full text-white flex items-center relative">
 		<div class="max-w-[1300px] m-auto flex">
 			<div
 				class="w-1/2 text-left bg-gradient-to-r from-[#E63A33] via-purple-500 to-[#38C5E7] bg-clip-text text-transparent text-4xl font-bold"
@@ -71,24 +117,31 @@
 			</div>
 		</div>
 	</div>
-</div>
-
-<style>
-	#content {
-		height: 500vh;
-	}
-	#home {
-		height: 260vh;
-	}
-	/* #img-container {
-		position: sticky;
-		top: 0;
-		width: 100%;
-		height: 100vh;
-		background-image: linear-gradient(rgba(49, 47, 47, 0.5), rgba(35, 34, 34, 0.5)),
-			url('https://img.freepik.com/free-photo/digital-tablet-photography-design-studio-editing-concept_53876-146880.jpg?w=1380&t=st=1692176915~exp=1692177515~hmac=a900e0d7aea07ae956eb0275fcf9ac7bd6a4c43e809f9355629cb63c79c21001');
-		background-position: 50% 50%;
-		background-size: cover;
-		background-repeat: no-repeat;
-	} */
-</style>
+	<div class="relative mt-5 text-white">
+		<div class="max-w-[1300px] m-auto pb-20">
+			<div
+				class="nav flex justify-between m-auto max-w-[600px] my-20 px-6 py-5 bg-[#16171A] rounded-full uppercase text-xs font-semibold tracking-wider"
+			>
+				<p class="cursor-pointer hover:text-red-500">All</p>
+				<p class="cursor-pointer hover:text-red-500">Web Development</p>
+				<p class="cursor-pointer hover:text-red-500">Digital Marketing</p>
+				<p class="cursor-pointer hover:text-red-500">Creative Media</p>
+			</div>
+			<div class="grid grid-cols-3 gap-8 w-full">
+				{#each portfolios as portfolio}
+					<div class="text-center uppercase mb-6">
+						<div class="overflow-hidden h-[250px]">
+							<img
+								class="hover:scale-[1.1] w-full h-full object-cover transition cursor-pointer"
+								src={portfolio.img}
+								alt=""
+							/>
+						</div>
+						<p class="text-xl font-bold mt-5 leading-loose">{portfolio.title}</p>
+						<p class="text-sm tracking-widest text-[#909095]">{portfolio.catergory}</p>
+					</div>
+				{/each}
+			</div>
+		</div>
+	</div>
+</body>

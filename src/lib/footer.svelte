@@ -1,4 +1,4 @@
-<footer class="p-20 bg-base-200 text-base-content">
+<footer class="p-20 bg-gray-200 text-base-content">
 	<div class="flex max-w-[1300px] m-auto">
 		<div class="w-2/5">
 			<img src="INNOVUS-LOGO(White).png" alt="" width="250px" />
