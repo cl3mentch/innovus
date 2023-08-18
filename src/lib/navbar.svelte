@@ -37,23 +37,9 @@
 	toggleCheckboxes();
 </script>
 
-<div class="navbar bg-color transition p-5 sticky top-0 z-20">
-	<div class="min-w-[1300px] py-5 m-auto flex justify-between">
-		<!-- <div class="flex items-center text-4xl"> -->
-		<!-- <p class="font-town60 mr-1">INNOVUS</p> -->
-		<!-- svelte-ignore a11y-click-events-have-key-events -->
-		<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-		<!-- <img
-				src="../INNOVUS-LOGO.png"
-				alt=""
-				width="60px"
-				class="cursor-pointer"
-				on:click={() => {
-					goto('/');
-				}}
-			/> -->
-		<!-- </div> -->
-		<div class="text-4xl">
+<div class="bg-color transition p-5 lg:px-0 sticky top-0 z-20">
+	<div class="lg:w-[1300px] lg:py-5 m-auto flex justify-between">
+		<div class="text-4xl flex items-center">
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 			<label class="swap swap-flip text-9xl">
@@ -64,8 +50,7 @@
 						<img
 							src="../INNOVUS-LOGO(Black).png"
 							alt=""
-							width="250px"
-							class="cursor-pointer"
+							class="cursor-pointer w-[150px] lg:w-[250px]"
 							on:click={() => {
 								goto('/');
 							}}
@@ -76,7 +61,7 @@
 							src="../INNOVUS-LOGO(White).png"
 							alt=""
 							width="250px"
-							class="cursor-pointer"
+							class="cursor-pointer w-[150px] lg:w-[250px]"
 							on:click={() => {
 								goto('/');
 							}}
@@ -88,7 +73,7 @@
 							src="../INNOVUS-LOGO(Black).png"
 							alt=""
 							width="250px"
-							class="cursor-pointer"
+							class="cursor-pointer w-[150px] lg:w-[250px]"
 							on:click={() => {
 								goto('/');
 							}}
@@ -99,79 +84,84 @@
 							src="../INNOVUS-LOGO(White).png"
 							alt=""
 							width="250px"
-							class="cursor-pointer"
+							class="cursor-pointer w-[150px] lg:w-[250px]"
 							on:click={() => {
 								goto('/');
 							}}
 						/>
-					</div>{/if}
+					</div>
+				{/if}
 			</label>
 		</div>
-		<div class="hidden lg:block font-medium">
-			<!-- svelte-ignore a11y-missing-attribute -->
-			<div class="font-bold flex">
-				<!-- svelte-ignore a11y-click-events-have-key-events -->
-				<!-- svelte-ignore a11y-no-static-element-interactions -->
-				<div
-					class="btn btn-ghost"
-					on:click={() => {
-						goto('/about');
-					}}
-				>
-					ABOUT
-				</div>
-				<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
-				<div class="dropdown dropdown-hover">
-					<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
-					<!-- svelte-ignore a11y-label-has-associated-control -->
-					<label tabindex="0" class="btn btn-ghost min-w-[120px]"
-						>SERVICES
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke-width="1.5"
-							stroke="currentColor"
-							class="w-4 h-4"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-							/>
-						</svg>
-					</label>
-					<ul
-						tabindex="0"
-						class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+		<div class="font-medium flex">
+			<div class="hidden md:block">
+				<!-- svelte-ignore a11y-missing-attribute -->
+				<div class="font-bold flex">
+					<!-- svelte-ignore a11y-click-events-have-key-events -->
+					<!-- svelte-ignore a11y-no-static-element-interactions -->
+					<div
+						class="btn btn-ghost"
+						on:click={() => {
+							goto('/about');
+						}}
 					>
-						<li><a href="../services/webdevelopment">WEB DEVELOPMENT</a></li>
-						<li><a href="../services/SEO">SEO</a></li>
-						<li><a href="../services/digitalmarketing">DIGITAL MARKETING</a></li>
-						<li><a href="../services/creativemedia">CREATIVE MEDIA</a></li>
-						<li><a href="../services/data">DATA & BUSINESS ANALYSIS</a></li>
-					</ul>
+						ABOUT
+					</div>
+					<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+					<div class="dropdown dropdown-hover">
+						<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+						<!-- svelte-ignore a11y-label-has-associated-control -->
+						<label tabindex="0" class="btn btn-ghost min-w-[120px]"
+							>SERVICES
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="w-4 h-4"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+								/>
+							</svg>
+						</label>
+						<ul
+							tabindex="0"
+							class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+						>
+							<li><a href="../services/webdevelopment">WEB DEVELOPMENT</a></li>
+							<li><a href="../services/SEO">SEO</a></li>
+							<li><a href="../services/digitalmarketing">DIGITAL MARKETING</a></li>
+							<li><a href="../services/creativemedia">CREATIVE MEDIA</a></li>
+							<li><a href="../services/data">DATA & BUSINESS ANALYSIS</a></li>
+						</ul>
+					</div>
+					<!-- svelte-ignore a11y-click-events-have-key-events -->
+					<!-- svelte-ignore a11y-no-static-element-interactions -->
+					<div
+						class="btn btn-ghost"
+						on:click={() => {
+							goto('/portfolio');
+						}}
+					>
+						PORTFOLIO
+					</div>
+					<!-- svelte-ignore a11y-click-events-have-key-events -->
+					<!-- svelte-ignore a11y-no-static-element-interactions -->
+					<div
+						class="btn btn-ghost"
+						on:click={() => {
+							goto('/contact');
+						}}
+					>
+						CONTACT
+					</div>
 				</div>
-				<!-- svelte-ignore a11y-click-events-have-key-events -->
-				<!-- svelte-ignore a11y-no-static-element-interactions -->
-				<div
-					class="btn btn-ghost"
-					on:click={() => {
-						goto('/portfolio');
-					}}
-				>
-					PORTFOLIO
-				</div>
-				<!-- svelte-ignore a11y-click-events-have-key-events -->
-				<!-- svelte-ignore a11y-no-static-element-interactions -->
-				<div
-					class="btn btn-ghost"
-					on:click={() => {
-						goto('/contact');
-					}}
-				>
-					CONTACT
-				</div>
+			</div>
+			<div class="flex">
 				<label class="btn btn-circle btn-md swap swap-rotate btn-ghost">
 					<!-- this hidden checkbox controls the state -->
 
@@ -261,9 +251,11 @@
 					</div>
 					<div class="drawer-side">
 						<label for="my-drawer-4" class="drawer-overlay" />
-						<div class="menu p-4 w-80 h-full bg-base-200 text-base-content">
+						<div class="menu p-4 w-full h-full bg-base-200 text-base-content">
 							<!-- Sidebar content here -->
+							<!-- svelte-ignore a11y-missing-attribute -->
 							<li><a>Sidebar Item 1</a></li>
+							<!-- svelte-ignore a11y-missing-attribute -->
 							<li><a>Sidebar Item 2</a></li>
 						</div>
 					</div>

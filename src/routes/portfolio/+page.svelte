@@ -1,4 +1,6 @@
 <script>
+	import { scale } from 'svelte/transition';
+	import { expoInOut } from 'svelte/easing';
 	let y = 0;
 	let innerHeight;
 
@@ -15,11 +17,14 @@
 		}
 	}
 
+	let selectedCategory = 'All';
+
+
 	let portfolios = [
 		{
 			title: 'Website',
 			img: 'https://img.freepik.com/free-psd/student-discounts-template-design_23-2150570805.jpg?w=1380&t=st=1692246158~exp=1692246758~hmac=485ce9b267010c6b731c76fb1869a5596f15d1c4f5849ad7f8f81c93385e2e6b',
-			catergory: 'Digital Marketing',
+			catergory: 'Web Development',
 			subcategory: 'Ecommerce Website'
 		},
 		{
@@ -31,25 +36,25 @@
 		{
 			title: 'Website',
 			img: 'https://img.freepik.com/free-psd/student-discounts-template-design_23-2150570805.jpg?w=1380&t=st=1692246158~exp=1692246758~hmac=485ce9b267010c6b731c76fb1869a5596f15d1c4f5849ad7f8f81c93385e2e6b',
-			catergory: 'Digital Marketing',
+			catergory: 'Web Development',
 			subcategory: 'Ecommerce Website'
 		},
 		{
 			title: 'Website',
 			img: 'https://img.freepik.com/free-psd/student-discounts-template-design_23-2150570805.jpg?w=1380&t=st=1692246158~exp=1692246758~hmac=485ce9b267010c6b731c76fb1869a5596f15d1c4f5849ad7f8f81c93385e2e6b',
-			catergory: 'Digital Marketing',
+			catergory: 'Creative Media',
 			subcategory: 'Ecommerce Website'
 		},
 		{
 			title: 'Website',
 			img: 'https://img.freepik.com/free-psd/student-discounts-template-design_23-2150570805.jpg?w=1380&t=st=1692246158~exp=1692246758~hmac=485ce9b267010c6b731c76fb1869a5596f15d1c4f5849ad7f8f81c93385e2e6b',
-			catergory: 'Digital Marketing',
+			catergory: 'Creative Media',
 			subcategory: 'Ecommerce Website'
 		},
 		{
 			title: 'Website',
 			img: 'https://img.freepik.com/free-psd/student-discounts-template-design_23-2150570805.jpg?w=1380&t=st=1692246158~exp=1692246758~hmac=485ce9b267010c6b731c76fb1869a5596f15d1c4f5849ad7f8f81c93385e2e6b',
-			catergory: 'Digital Marketing',
+			catergory: 'Web Development',
 			subcategory: 'Ecommerce Website'
 		},
 		{
@@ -58,8 +63,12 @@
 			catergory: 'Digital Marketing',
 			subcategory: 'Ecommerce Website'
 		}
-		
 	];
+
+	let filteredPortfolios =
+		selectedCategory === 'All'
+			? portfolios
+			: portfolios.filter((portfolio) => portfolio.catergory === selectedCategory);
 </script>
 
 <svelte:window bind:scrollY={y} bind:innerHeight />
@@ -122,14 +131,40 @@
 			<div
 				class="nav flex justify-between m-auto max-w-[600px] my-20 px-6 py-5 bg-[#16171A] rounded-full uppercase text-xs font-semibold tracking-wider"
 			>
-				<p class="cursor-pointer hover:text-red-500">All</p>
-				<p class="cursor-pointer hover:text-red-500">Web Development</p>
-				<p class="cursor-pointer hover:text-red-500">Digital Marketing</p>
-				<p class="cursor-pointer hover:text-red-500">Creative Media</p>
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+				<p class="cursor-pointer hover:text-red-500" on:click={() => selectedCategory = "All"}>All</p>
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+				<p
+					class="cursor-pointer hover:text-red-500"
+					on:click={() => selectedCategory = "Web Development"}
+				>
+					Web Development
+				</p>
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+				<p
+					class="cursor-pointer hover:text-red-500"
+					on:click={() => selectedCategory = "Digital Marketing"}
+				>
+					Digital Marketing
+				</p>
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+				<p
+					class="cursor-pointer hover:text-red-500"
+					on:click={() => selectedCategory = "Creative Media"}
+				>
+					Creative Media
+				</p>
 			</div>
 			<div class="grid grid-cols-3 gap-8 w-full">
-				{#each portfolios as portfolio}
-					<div class="text-center uppercase mb-6">
+				{#each filteredPortfolios as portfolio}
+					<div
+						class="text-center uppercase mb-6"
+						transition:scale={{ duration: 1000, easing: expoInOut }}
+					>
 						<div class="overflow-hidden h-[250px]">
 							<img
 								class="hover:scale-[1.1] w-full h-full object-cover transition cursor-pointer"

@@ -1,27 +1,31 @@
-<footer class="p-20 bg-gray-200 text-base-content">
-	<div class="flex max-w-[1300px] m-auto">
-		<div class="w-2/5">
+<script>
+	import { goto } from '$app/navigation';
+</script>
+
+<footer class="p-5 lg:p-20 py-20 lg:py-0  bg-gray-200 text-base-content">
+	<div class="lg:flex lg:max-w-[1300px] m-auto">
+		<div class="lg:w-2/5">
 			<img src="/INNOVUS-LOGO(White).png" alt="" width="250px" />
-			<p class="max-w-[400px] text-lg leading-9 text-[#888D94]">
+			<p class="lg:max-w-[400px] text-lg leading-9 text-[#888D94]">
 				Innovus provides customized data and digital solutions to help businesses succeed. We
 				prioritize innovation, quality, and customer satisfaction to be your trusted partner.
 			</p>
 		</div>
-		<div class="w-1/5 flex flex-col">
+		<div class="lg:w-1/5 flex flex-col my-10 lg:my-0">
 			<span class="footer-title text-2xl">Services</span>
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<!-- svelte-ignore a11y-missing-attribute -->
-			<a class="link link-hover">Web Development</a>
+			<a class="link link-hover" href="../services/webdevelopment">Web Development</a>
 			<!-- svelte-ignore a11y-missing-attribute -->
-			<a class="link link-hover">Search Engine Optimization</a>
+			<a class="link link-hover" href="../services/SEO">Search Engine Optimization</a>
 			<!-- svelte-ignore a11y-missing-attribute -->
-			<a class="link link-hover">Digital Marketing</a>
+			<a class="link link-hover" href="../services/digitalmarketing">Digital Marketing</a>
 			<!-- svelte-ignore a11y-missing-attribute -->
-			<a class="link link-hover">Creative Media</a>
+			<a class="link link-hover" href="../services/creativemedia">Creative Media</a>
 			<!-- svelte-ignore a11y-missing-attribute -->
-			<a class="link link-hover">Data & Business Analysis</a>
+			<a class="link link-hover" href="../services/data">Data & Business Analysis</a>
 		</div>
-		<div class="w-2/5">
+		<div class="lg:w-2/5">
 			<span class="footer-title text-2xl">Contact Us</span>
 			<div class="flex mt-2">
 				<svg

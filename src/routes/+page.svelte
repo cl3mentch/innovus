@@ -88,19 +88,19 @@
 	}
 </script>
 
-<div class="bg-color transition h-[90vh] relative">
+<div class="bg-color transition h-[90vh] relative p-5 lg:p-0">
 	<Particles
 		id="tsparticles"
-		class="foo bar absolute w-full h-full"
+		class="foo bar absolute lg:w-full h-full"
 		style=""
 		options={particlesConfig}
 		on:particlesLoaded={onParticlesLoaded}
 		{particlesInit}
 	/>
 	<div
-		class="font-extrabold max-w-[1300px] m-auto text-color py-10 pt-20 relative flex justify-between"
+		class="font-extrabold lg:max-w-[1300px] m-auto text-color py-10 pt-20 relative flex flex-col lg:flex-row justify-between"
 	>
-		<div class="text-5xl">
+		<div class="text-3xl lg:text-5xl">
 			<div class="py-6">Where Technology</div>
 			<div>Meets</div>
 			<div class="glow text-white py-6">Innovation</div>
@@ -108,42 +108,43 @@
 		<TypedJs
 			strings={[
 				'Web Development',
-				'SEO',
+				'Search Engine Optimization',
 				'Digital Marketing',
 				'Creative Media',
-				'Data & Business Analysis'
+				'Data &amp; Business Analysis'
 			]}
 			loop={true}
 			typeSpeed={50}
 			backSpeed={50}
+			showCursor={false}
 		>
-			<div class="text-8xl mt-28 max-w-[520px] leading-relaxed">
-				<p><span class="typing bg-[#F9BC23] px-5" /></p>
+			<div class="text-5xl lg:text-8xl mt-28 lg:max-w-[500px] leading-normal lg:leading-relaxed">
+				<p><span class="typing bg-[#F9BC23]" /></p>
 			</div>
 		</TypedJs>
 	</div>
 </div>
-<div class="flex flex-wrap text-color icon-color">
-	<div class="w-2/5">
+<div class="lg:flex flex-wrap text-color icon-color">
+	<div class="lg:w-2/5">
 		<!-- svelte-ignore a11y-img-redundant-alt -->
 		<img src={image} alt="image" class="object-cover object-center w-full h-full" />
 	</div>
-	<div class="w-3/5 subbg-color my-14">
-		<div class="flex items-center my-36">
-			<p class="reversefont font-medium text-2xl mx-20">Our Services</p>
-			<p class="max-w-[200px] text-xl">
+	<div class="lg:w-3/5 subbg-color lg:my-14">
+		<div class="lg:flex items-center lg:my-36">
+			<p class="reversefont font-medium text-2xl lg:mx-20 ">Our Services</p>
+			<p class="lg:max-w-[200px] text-xl">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ab!
 			</p>
 		</div>
-		<ul class="text-3xl font-black mb-52">
-			<li class="flex items-center mt-10">
+		<ul class="text-3xl font-black lg:mb-52">
+			<li class="lg:flex items-center mt-10">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke-width="1"
 					stroke="currentColor"
-					class="w-14 h-16"
+					class="w-14 h-16 hidden "
 				>
 					<path
 						stroke-linecap="round"
@@ -151,16 +152,16 @@
 						d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"
 					/>
 				</svg>
-				<p class="ml-3 cursor-pointer" on:mouseenter={() => changeImage(1)}>Web Development</p>
+				<p class="lg:ml-3 cursor-pointer" on:mouseenter={() => changeImage(1)}>Web Development</p>
 			</li>
-			<li class="flex items-center mt-5">
+			<li class="lg:flex items-center lg:mt-5">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke-width="1"
 					stroke="currentColor"
-					class="w-14 h-16"
+					class="w-14 h-16 hidden"
 				>
 					<path
 						stroke-linecap="round"
@@ -169,7 +170,7 @@
 					/>
 				</svg>
 
-				<p class="ml-3 cursor-pointer" on:mouseenter={() => changeImage(2)}>
+				<p class="lg:ml-3 cursor-pointer" on:mouseenter={() => changeImage(2)}>
 					Search Engine Optimization
 				</p>
 			</li>
@@ -318,82 +319,6 @@
 				</p>
 			</li>
 		</ul>
-	</div>
-</div>
-<div class="h-[500px] flex items-center justify-center pt-20 text-color">
-	<p class="font-black text-7xl">What We Do</p>
-</div>
-
-<div class="subbg-color text-color">
-	<div class="flex justify-center items-center h-[800px]">
-		<div class="flex max-w-[1300px]">
-			<div class="mt-28">
-				<p class="text-5xl font-bold">Web Development</p>
-				<p class="text-lg my-10">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, provident blanditiis
-					expedita delectus quisquam commodi earum pariatur ducimus aliquam similique!
-				</p>
-				<div class="btn btn-outline btn-warning">Discover More</div>
-			</div>
-			<div>
-				<p class="text-[#CCCCCC] text-7xl mx-3 mb-7">01</p>
-				<div class="bg-[#FBBD23] p-5 rounded-lg">
-					<div class="overflow-hidden w-[600px] rounded-lg drop-shadow-2xl">
-						<img
-							src="https://img.freepik.com/free-photo/close-up-man-writing-code-laptop_158595-5169.jpg?w=1380&t=st=1692069798~exp=1692070398~hmac=a4153c6f9620e0469d825722a20bded0b4da0c11ee65221b4931da6d717fe0f2"
-							alt="img"
-							class="object-cover w-full h-full rounded"
-						/>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<hr class="w-[1300px] m-auto" />
-</div>
-<div class="subbg-color text-color px-5 py-40">
-	<div class="max-w-[1300px] flex justify-center m-auto">
-		<div class="w-2/4">
-			<p class="font-black text-7xl">Our Values</p>
-		</div>
-		<div class="w-2/4">
-			<div class="flex items-center mb-5">
-				<div class="number min-w-[40px]">1</div>
-				<div class="ml-5">
-					<p class="font-bold text-xl">Customization</p>
-					<p class="text-[#838383]">
-						We provide tailored solutions to fit the unique needs of each client.
-					</p>
-				</div>
-			</div>
-			<div class="flex items-center mb-5">
-				<div class="number min-w-[40px]">2</div>
-				<div class="ml-5">
-					<p class="font-bold text-xl">Innovation</p>
-					<p class="text-[#838383]">Pioneering new ideas and approaches to drive progress</p>
-				</div>
-			</div>
-			<div class="flex items-center mb-5">
-				<div class="number min-w-[40px]">3</div>
-				<div class="ml-5">
-					<p class="font-bold text-xl">Quality of Service</p>
-					<p class="text-[#838383]">
-						Our dedication to delivering the highest quality solutions drives every aspect of our
-						work.
-					</p>
-				</div>
-			</div>
-			<div class="flex items-center mb-5">
-				<div class="number min-w-[40px]">4</div>
-				<div class="ml-5">
-					<p class="font-bold text-xl">Success Focus</p>
-					<p class="text-[#838383]">
-						Every step we take should bring our clients closer to their goals. Our unwavering
-						dedication to a success-focused approach drives everything that we do.
-					</p>
-				</div>
-			</div>
-		</div>
 	</div>
 </div>
 
