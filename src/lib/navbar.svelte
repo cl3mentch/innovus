@@ -28,34 +28,84 @@
 		}
 	});
 	let isChecked = false;
+
+	let isCheckedlogo = false;
+
+	function toggleCheckboxes() {
+		isCheckedlogo = true;
+	}
+	toggleCheckboxes();
 </script>
 
 <div class="navbar bg-color transition p-5 sticky top-0 z-20">
 	<div class="min-w-[1300px] py-5 m-auto flex justify-between">
-		<div class="">
+		<!-- <div class="flex items-center text-4xl"> -->
+		<!-- <p class="font-town60 mr-1">INNOVUS</p> -->
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+		<!-- <img
+				src="../INNOVUS-LOGO.png"
+				alt=""
+				width="60px"
+				class="cursor-pointer"
+				on:click={() => {
+					goto('/');
+				}}
+			/> -->
+		<!-- </div> -->
+		<div class="text-4xl">
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-			{#if $darktheme}
-				<img
-					src="../INNOVUS-LOGO(Black).png"
-					alt=""
-					width="250px"
-					class="cursor-pointer"
-					on:click={() => {
-						goto('/');
-					}}
-				/>
-			{:else}
-				<img
-					src="../INNOVUS-LOGO(White).png"
-					alt=""
-					width="250px"
-					class="cursor-pointer"
-					on:click={() => {
-						goto('/');
-					}}
-				/>
-			{/if}
+			<label class="swap swap-flip text-9xl">
+				<!-- this hidden checkbox controls the state -->
+				<input type="checkbox" bind:checked={isCheckedlogo} disabled />
+				{#if $darktheme}
+					<div class="swap-on">
+						<img
+							src="../INNOVUS-LOGO(Black).png"
+							alt=""
+							width="250px"
+							class="cursor-pointer"
+							on:click={() => {
+								goto('/');
+							}}
+						/>
+					</div>
+					<div class="swap-off">
+						<img
+							src="../INNOVUS-LOGO(White).png"
+							alt=""
+							width="250px"
+							class="cursor-pointer"
+							on:click={() => {
+								goto('/');
+							}}
+						/>
+					</div>
+				{:else}
+					<div class="swap-off">
+						<img
+							src="../INNOVUS-LOGO(Black).png"
+							alt=""
+							width="250px"
+							class="cursor-pointer"
+							on:click={() => {
+								goto('/');
+							}}
+						/>
+					</div>
+					<div class="swap-on">
+						<img
+							src="../INNOVUS-LOGO(White).png"
+							alt=""
+							width="250px"
+							class="cursor-pointer"
+							on:click={() => {
+								goto('/');
+							}}
+						/>
+					</div>{/if}
+			</label>
 		</div>
 		<div class="hidden lg:block font-medium">
 			<!-- svelte-ignore a11y-missing-attribute -->
@@ -130,6 +180,7 @@
 						data-toggle-theme="dark,light"
 						class="w-full h-full hidden"
 						data-act-class="ACTIVECLASS"
+						bind:checked={isCheckedlogo}
 					/>
 					{#if $darktheme}
 						<!-- sun icon -->

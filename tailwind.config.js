@@ -4,7 +4,8 @@ export default {
 	theme: {
 		extend: {},
 		fontFamily: {
-			poppins: ['Poppins', 'sans-serif']
+			poppins: ['Poppins', 'sans-serif'],
+			town60: ['town60', 'sans-serif']
 		}
 	},
 	plugins: [require('daisyui')],

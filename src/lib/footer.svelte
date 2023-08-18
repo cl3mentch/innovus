@@ -1,7 +1,7 @@
 <footer class="p-20 bg-gray-200 text-base-content">
 	<div class="flex max-w-[1300px] m-auto">
 		<div class="w-2/5">
-			<img src="INNOVUS-LOGO(White).png" alt="" width="250px" />
+			<img src="/INNOVUS-LOGO(White).png" alt="" width="250px" />
 			<p class="max-w-[400px] text-lg leading-9 text-[#888D94]">
 				Innovus provides customized data and digital solutions to help businesses succeed. We
 				prioritize innovation, quality, and customer satisfaction to be your trusted partner.
