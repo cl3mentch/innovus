@@ -91,7 +91,7 @@
 <div class="bg-color transition h-[90vh] relative p-5 lg:p-0">
 	<Particles
 		id="tsparticles"
-		class="foo bar absolute lg:w-full h-full"
+		class="foo bar absolute lg:w-full h-full "
 		style=""
 		options={particlesConfig}
 		on:particlesLoaded={onParticlesLoaded}
@@ -125,15 +125,20 @@
 	</div>
 </div>
 <div class="lg:flex flex-wrap text-color icon-color">
-	<div class="lg:w-2/5">
+	<div class="lg:w-2/5 overflow-hidden  lg:h-[1300px] ">
 		<!-- svelte-ignore a11y-img-redundant-alt -->
-		<img src={image} alt="image" class="object-cover object-center w-full h-full" />
+		<img src={image} alt="image" class="mt-10 lg:mt-0 object-cover object-center w-full h-full" />
 	</div>
-	<div class="lg:w-3/5 subbg-color lg:my-14">
+	<div class="lg:w-3/5 subbg-color lg:my-14 px-5 py-14">
 		<div class="lg:flex items-center lg:my-36">
-			<p class="reversefont font-medium text-2xl lg:mx-20 ">Our Services</p>
-			<p class="lg:max-w-[200px] text-xl">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ab!
+			<p
+				class="lg:-rotate-90 before:content-[''] before:bg-[#707070] before:w-[50px] before:h-[1px] before:inline-block before:align-middle before:mr-[1rem] font-medium text-2xl lg:mx-20"
+			>
+				Our Services
+			</p>
+			<p class="lg:max-w-[200px] text-xl my-5">
+				We immerse ourselves in the intricacies of our tasks, meticulously refining every pixel to
+				achieve perfection.
 			</p>
 		</div>
 		<ul class="text-3xl font-black lg:mb-52">
@@ -144,7 +149,7 @@
 					viewBox="0 0 24 24"
 					stroke-width="1"
 					stroke="currentColor"
-					class="w-14 h-16 hidden "
+					class="w-14 h-16 hidden lg:block"
 				>
 					<path
 						stroke-linecap="round"
@@ -152,7 +157,7 @@
 						d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"
 					/>
 				</svg>
-				<p class="lg:ml-3 cursor-pointer" on:mouseenter={() => changeImage(1)}>Web Development</p>
+				<p class="lg:ml-3 cursor-pointer hover:underline" on:mouseenter={() => changeImage(1)}>Web Development</p>
 			</li>
 			<li class="lg:flex items-center lg:mt-5">
 				<svg
@@ -161,7 +166,7 @@
 					viewBox="0 0 24 24"
 					stroke-width="1"
 					stroke="currentColor"
-					class="w-14 h-16 hidden"
+					class="w-14 h-16 hidden lg:block"
 				>
 					<path
 						stroke-linecap="round"
@@ -170,16 +175,16 @@
 					/>
 				</svg>
 
-				<p class="lg:ml-3 cursor-pointer" on:mouseenter={() => changeImage(2)}>
+				<p class="lg:ml-3 cursor-pointer hover:underline" on:mouseenter={() => changeImage(2)}>
 					Search Engine Optimization
 				</p>
 			</li>
-			<li class="flex items-center mt-5">
+			<li class="lg:flex items-center mt-5">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					version="1.0"
 					stroke="1"
-					class="w-14 h-16"
+					class="w-14 h-16 hidden lg:block"
 					viewBox="0 0 512.000000 512.000000"
 					preserveAspectRatio="xMidYMid meet"
 				>
@@ -231,13 +236,13 @@
 						/>
 					</g>
 				</svg>
-				<p class="ml-3 cursor-pointer" on:mouseenter={() => changeImage(3)}>Digital Marketing</p>
+				<p class="lg:ml-3 cursor-pointer hover:underline" on:mouseenter={() => changeImage(3)}>Digital Marketing</p>
 			</li>
-			<li class="flex items-center mt-5">
+			<li class="lg:flex items-center mt-5">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					version="1.0"
-					class="w-14 h-16"
+					class="w-14 h-16 hidden lg:block"
 					viewBox="0 0 512.000000 512.000000"
 					preserveAspectRatio="xMidYMid meet"
 				>
@@ -268,13 +273,13 @@
 						/>
 					</g>
 				</svg>
-				<p class="ml-3 cursor-pointer" on:mouseenter={() => changeImage(4)}>Creative Media</p>
+				<p class="lg:ml-3 cursor-pointer hover:underline" on:mouseenter={() => changeImage(4)}>Creative Media</p>
 			</li>
-			<li class="flex items-center mt-5">
+			<li class="lg:flex items-center mt-5">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					xmlns:xlink="http://www.w3.org/1999/xlink"
-					class="w-14 h-16"
+					class="w-14 h-16 hidden lg:block"
 					version="1.1"
 					viewBox="0 0 101.38 101.379"
 					xml:space="preserve"
@@ -314,11 +319,90 @@
 						</g>
 					</g>
 				</svg>
-				<p class="ml-3 cursor-pointer" on:mouseenter={() => changeImage(5)}>
+				<p class="lg:ml-3 cursor-pointer hover:underline" on:mouseenter={() => changeImage(5)}>
 					Data & Business Analysis
 				</p>
 			</li>
 		</ul>
+	</div>
+</div>
+<div class="h-[500px] flex items-center justify-center py-20 text-color">
+	<p class="font-black lg:text-7xl text-5xl">What We Do</p>
+</div>
+<div class="subbg-color text-color p-5">
+	<div class="lg:flex justify-center items-center h-[800px]">
+		<div class="lg:flex lg:max-w-[1300px]">
+			<div class="mt-28">
+				<p class="text-5xl font-bold">Web Development</p>
+				<p class="text-lg my-10">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, provident blanditiis
+					expedita delectus quisquam commodi earum pariatur ducimus aliquam similique!
+				</p>
+				<div class="btn btn-outline btn-warning">Discover More</div>
+			</div>
+			<div class="mt-10 lg:mt-0">
+				<p class="text-[#CCCCCC] text-7xl mx-3 mb-7 hidden lg:block">01</p>
+				<div class="bg-[#FBBD23] p-5 rounded-lg">
+					<div class="overflow-hidden lg:w-[600px] rounded-lg drop-shadow-2xl">
+						<img
+							src="https://img.freepik.com/free-photo/close-up-man-writing-code-laptop_158595-5169.jpg?w=1380&t=st=1692069798~exp=1692070398~hmac=a4153c6f9620e0469d825722a20bded0b4da0c11ee65221b4931da6d717fe0f2"
+							alt="img"
+							class="object-cover w-full h-full rounded"
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr class="lg:w-[1300px] m-auto" />
+</div>
+<div class="subbg-color text-color px-5 lg:py-40">
+	<div class="lg:max-w-[1300px] lg:flex  justify-center m-auto">
+		<div class="lg:w-2/4">
+			<p class="font-black text-7xl">Our Values</p>
+		</div>
+		<div class="lg:w-2/4 py-10 lg:py-0">
+			<div class="flex items-center mb-5">
+				<div class="number min-w-[40px]">1</div>
+				<div class="ml-5">
+					<p class="font-bold text-xl">Creativity Unleashed</p>
+					<p class="text-[#838383]">
+						Imagination is our playground. We relish the challenge of turning unique concepts into
+						tangible, visually stunning realities.
+					</p>
+				</div>
+			</div>
+			<div class="flex items-center mb-5">
+				<div class="number min-w-[40px]">2</div>
+				<div class="ml-5">
+					<p class="font-bold text-xl">Code Craftsmanship</p>
+					<p class="text-[#838383]">
+						Imagination is our playground. We relish the challenge of turning unique concepts into
+						tangible, visually stunning realities.
+					</p>
+				</div>
+			</div>
+			<div class="flex items-center mb-5">
+				<div class="number min-w-[40px]">3</div>
+				<div class="ml-5">
+					<p class="font-bold text-xl">User-Centric Design</p>
+					<p class="text-[#838383]">
+						Users are at the heart of everything we do. Our designs are rooted in empathy, ensuring
+						seamless and engaging user experiences.
+					</p>
+				</div>
+			</div>
+			<div class="flex items-center">
+				<div class="number min-w-[40px]">4</div>
+				<div class="ml-5">
+					<p class="font-bold text-xl">Reliability and Trust</p>
+					<p class="text-[#838383]">
+						Building long-lasting relationships is our priority. We are committed to transparency,
+						integrity, and delivering on our promises.
+					</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 
@@ -357,19 +441,7 @@
 				0 0 60px #39c3e4, 0 0 70px #39c3e4, 0 0 80px #39c3e4;
 		}
 	}
-	.reversefont {
-		transform: rotate(-90deg) translate(-23%);
-	}
 
-	.reversefont::before {
-		content: '';
-		background-color: #707070;
-		width: 50px;
-		height: 1px;
-		display: inline-block;
-		vertical-align: middle;
-		margin-right: 1rem;
-	}
 	li::before {
 		content: '';
 		-ms-flex: 0 0 24.6%;

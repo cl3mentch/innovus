@@ -2,7 +2,7 @@
 	import { goto } from '$app/navigation';
 </script>
 
-<footer class="p-5 lg:p-20 py-20 lg:py-0  bg-gray-200 text-base-content">
+<footer class="p-5 lg:p-20 py-20  bg-gray-200 text-base-content">
 	<div class="lg:flex lg:max-w-[1300px] m-auto">
 		<div class="lg:w-2/5">
 			<img src="/INNOVUS-LOGO(White).png" alt="" width="250px" />
