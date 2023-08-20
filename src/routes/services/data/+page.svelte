@@ -1,22 +1,22 @@
-<div class="max-w-[1300px] m-auto mb-52">
-	<div class="flex justify-between">
-		<div class="w-1/2 mt-10 mr-10">
+<div class="lg:max-w-[1300px] m-auto mb-52 p-5">
+	<div class="lg:flex justify-between">
+		<div class="lg:w-1/2 mt-10 mr-10">
 			<p class="service text-sm font-semibold w-1/2">S E R V I C E</p>
 			<p class="text-5xl font-bold mt-5 leading-tight">
 				Data & Business<br /> <span class="text-[#3EC6EC]">Analysis</span>
 			</p>
-			<p class="max-w-[450px] mt-5">
+			<p class="lg:max-w-[450px] mt-5">
 				Unveil Insights, Drive Success: Harness the Power of Data & Business Analysis. Elevate your
 				decision-making with our expert services
 			</p>
 			<hr class="my-5" />
-			<div class="flex justify-between text-sm text-left leading-6">
-				<p class="mr-5">
+			<div class="lg:flex justify-between text-sm text-left leading-6">
+				<p class="lg:mr-5 my-5 lg:my-0">
 					In today's dynamic business landscape, making informed decisions is paramount to success.
 					At INNOVUS, we offer comprehensive Data and Business Analysis services that act as a
 					compass, guiding your organization towards strategic growth and optimization.
 				</p>
-				<p>
+				<p class="my-5 lg:my-0">
 					Our team of seasoned analysts are adept at transforming raw data into actionable insights.
 					We delve deep into the numbers, extracting valuable patterns, trends, and correlations
 					that hold the key to unlocking your business's true potential. With a meticulous approach,
@@ -26,22 +26,22 @@
 			</div>
 		</div>
 		<img
-			class="w-2/3"
+			class="lg:w-2/3"
 			src="https://img.freepik.com/premium-photo/man-woman-sit-table-with-coffee-cup-woman-suit_905510-1678.jpg?w=740"
 			alt=""
 		/>
 	</div>
 	<hr class="mt-40 mb-20" />
 	<div>
-		<div class="flex items-center">
-			<div class="w-1/2">
-				<p class="service text-sm font-semibold w-1/2">V A L U E</p>
+		<div class="lg:flex items-center">
+			<div class="lg:w-1/2">
+				<p class="lg:w-1/2 service text-sm font-semibold ">V A L U E</p>
 				<p class="text-5xl font-bold mt-5 leading-tight">
 					Client Focused,<br /> <span class="text-[#3EC6EC]">Results Driven</span>
 				</p>
 			</div>
-			<div class="w-1/2 flex">
-				<p>
+			<div class="lg:w-1/2 lg:flex">
+				<p class="my-5 lg:my-0">
 					Leveraging state-of-the-art tools and methodologies, we provide you with a comprehensive
 					understanding of your business's performance, customer behavior, market trends, and
 					competitive landscape. Armed with these insights, you gain the upper hand in making
@@ -55,8 +55,8 @@
 				</p>
 			</div>
 		</div>
-		<div class="flex my-36 justify-between">
-			<div class="text-center max-w-[25%]">
+		<div class=" my-36 lg:grid grid-cols-4 gap-x-4 space-y-20 lg:space-y-0">
+			<div class="text-center ">
 				<div
 					class="radial-progress text-[#3EC6EC] transition ease-in"
 					style="--value:90; --size:10rem; --thickness: 0.5rem;"
@@ -81,7 +81,7 @@
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, ea!
 				</p>
 			</div>
-			<div class="text-center max-w-[25%]">
+			<div class="text-center ">
 				<div
 					class="radial-progress text-[#3EC6EC]"
 					style="--value:95; --size:10rem; --thickness: 0.5rem;"
@@ -106,7 +106,7 @@
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, ea!
 				</p>
 			</div>
-			<div class="text-center max-w-[25%]">
+			<div class="text-center">
 				<div
 					class="radial-progress text-[#3EC6EC]"
 					style="--value:90; --size:10rem; --thickness: 0.5rem;"
@@ -131,7 +131,7 @@
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, ea!
 				</p>
 			</div>
-			<div class="text-center max-w-[25%]">
+			<div class="text-center">
 				<div
 					class="radial-progress text-[#3EC6EC]"
 					style="--value:90; --size:10rem; --thickness: 0.5rem;"

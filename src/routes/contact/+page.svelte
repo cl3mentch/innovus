@@ -1,27 +1,27 @@
-<div class="max-w-[1300px] m-auto">
-	<div class="flex justify-between">
+<div class="lg:max-w-[1300px] m-auto p-5 lg:p-0">
+	<div class="lg:flex justify-between">
 		<div class="my-20">
-			<p class="service text-sm font-semibold w-1/2">C O N T A C T</p>
-			<p class="font-bold text-8xl">Let's Get in <br />Touch With Us</p>
-			<form action="submit" class="my-10">
+			<p class="service text-sm font-semibold lg:w-1/2">C O N T A C T</p>
+			<p class="font-bold text-5xl lg:text-8xl">Let's Get in <br />Touch With Us</p>
+			<form action="submit" class="my-10 space-y-5">
 				<input
 					type="text"
 					placeholder="Name*"
-					class="input w-full max-w-xs bg-[#F2F2F2]"
+					class="input w-full lg:max-w-xs bg-[#F2F2F2]"
 					required
 				/>
-				<input type="text" placeholder="Company" class="input w-full max-w-xs bg-[#F2F2F2]" />
-				<div class="my-5">
+				<input type="text" placeholder="Company" class="input w-full lg:max-w-xs bg-[#F2F2F2]" />
+				<div class="space-y-5 lg:space-y-0">
 					<input
 						type="text"
 						placeholder="Phone Number*"
-						class="input w-full max-w-xs bg-[#F2F2F2]"
+						class="input w-full lg:max-w-xs bg-[#F2F2F2]"
 						required
 					/>
 					<input
 						type="text"
 						placeholder="Email *"
-						class="input w-full max-w-xs bg-[#F2F2F2]"
+						class="input w-full lg:max-w-xs bg-[#F2F2F2]"
 						required
 					/>
 				</div>
@@ -36,7 +36,7 @@
 			</form>
 		</div>
 		<div
-			class="w-1/3 shadow-lg rounded-3xl p-10 border sticky top-36 mb-5 mx-auto max-h-[650px] mt-10 subbg-color"
+			class="lg:w-1/3 shadow-lg rounded-3xl p-10 border sticky top-36 mb-5 mx-auto max-h-[650px] mt-10 subbg-color"
 		>
 			<p class="text-2xl font-bold">Contact Info</p>
 			<div class="flex mt-5">

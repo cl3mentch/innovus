@@ -1,13 +1,13 @@
-<div class="max-w-[1300px] m-auto mb-52">
-	<div class="flex justify-between my-20">
+<div class="lg:max-w-[1300px] m-auto mb-52 p-5">
+	<div class="lg:flex justify-between my-20">
 		<p class="text-3xl font-bold w-1/2">Digital Marketing</p>
-		<p class="w-2/3">
+		<p class="lg:w-2/3">
 			We help our clients craft a customised strategy to ensure business goals are met. You can rely
 			on our digital experts at heroes of digital help in your digital marketing.
 		</p>
 	</div>
-	<div class="flex justify-between mt-44">
-		<div class="w-1/2">
+	<div class="lg:flex justify-between mt-44">
+		<div class="lg:w-1/2">
 			<div
 				class="bg-gradient-to-r from-[#51C5D4] to-[#2BC1E0] max-w-[320px] rounded-lg py-2 text-white text-center text-sm"
 			>
@@ -24,19 +24,19 @@
 		</div>
 		<!-- svelte-ignore a11y-img-redundant-alt -->
 		<img
-			class="w-1/2"
+			class="lg:w-1/2"
 			src="https://img.freepik.com/free-vector/oil-serum-instagram-carousel-templates_23-2148771687.jpg?w=1380&t=st=1692156389~exp=1692156989~hmac=9273ad5f851f3a25ee66a893b26d23a6065df02a70cae49ec7fc4b261fa1edfc"
 			alt=""
 		/>
 	</div>
-	<div class="flex justify-between my-40">
+	<div class="lg:flex justify-between my-40">
 		<img
 			src="https://colorlib.com/wp/wp-content/uploads/sites/2/free-dashboard-templates-1.jpg"
 			alt=""
-			class="w-1/2 mr-20"
+			class="lg:w-1/2 mr-20"
 		/>
 
-		<div class="w-1/2">
+		<div class="lg:w-1/2">
 			<div
 				class="bg-gradient-to-r from-[#51C5D4] to-[#2BC1E0] max-w-[280px] rounded-lg py-2 text-white text-center text-sm"
 			>
@@ -52,20 +52,19 @@
 			</p>
 		</div>
 	</div>
-	<div class="flex justify-between mt-56">
-		<div class="w-1/2">
+	<div class="lg:flex justify-between mt-56">
+		<div class="lg:w-1/2">
 			<p
 				class="text-4xl my-5 font-semibold bg-gradient-to-r from-[#51C5D4] to-[#2BC1E0] bg-clip-text text-transparent leading-[1.3em]"
 			>
 				Social Platform <br /><span class="text-black">that we manage</span>
 			</p>
 		</div>
-		<div class="flex flex-wrap w-1/2 items-center justify-between">
+		<div class="lg:w-1/2 grid grid-cols-2 lg:grid-cols-4">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<!--FB LOGO-->
 			<img
 				width="150px"
-				class="mb-5"
 				src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg"
 			/>
 			<!--INSTA LOGO-->
@@ -127,8 +126,8 @@
 				<!--XHS LOGO-->
 				<img
 					width="150px"
-					class="mr-3"
 					src="https://upload.wikimedia.org/wikipedia/commons/c/c1/XiaohongshuLOGO.png"
+					class="mr-10 lg:mr-4"
 					alt=""
 				/>
 				<!--Google Logo-->

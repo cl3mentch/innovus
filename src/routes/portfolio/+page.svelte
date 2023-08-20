@@ -103,14 +103,14 @@
 		</div>
 	</div>
 	<div class="bg-[#1E1E1E] min-h-[400px] w-full text-white flex items-center relative">
-		<div class="max-w-[1300px] m-auto flex">
+		<div class="lg:max-w-[1300px] m-auto lg:flex">
 			<div
-				class="w-1/2 text-left bg-gradient-to-r from-[#E63A33] via-purple-500 to-[#38C5E7] bg-clip-text text-transparent text-4xl font-bold"
+				class="lg:w-1/2 text-left bg-gradient-to-r from-[#E63A33] via-purple-500 to-[#38C5E7] bg-clip-text text-transparent text-4xl font-bold"
 			>
 				<p class="mb-3">INNOVUS CREATIVE</p>
 				<p>CRAFT</p>
 			</div>
-			<div class="w-1/2 text-lg ml-10">
+			<div class="lg:w-1/2 text-lg lg:ml-10">
 				<div class="">
 					<p>
 						Innovus provides a comprehensive range of creative services that are strategically
@@ -127,9 +127,9 @@
 		</div>
 	</div>
 	<div class="relative mt-5 text-white">
-		<div class="max-w-[1300px] m-auto pb-20">
+		<div class="lg:max-w-[1300px] m-auto pb-20">
 			<div
-				class="nav flex justify-between m-auto max-w-[600px] my-20 px-6 py-5 bg-[#16171A] rounded-full uppercase text-xs font-semibold tracking-wider"
+				class="nav flex flex-wrap justify-between m-auto lg:max-w-[600px] max-w-[400px] my-20 px-6 py-5 bg-[#16171A] rounded-full uppercase text-xs font-semibold tracking-wider"
 			>
 				<!-- svelte-ignore a11y-click-events-have-key-events -->
 				<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
@@ -159,20 +159,20 @@
 					Creative Media
 				</p>
 			</div>
-			<div class="grid grid-cols-3 gap-8 w-full">
+			<div class="grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gaps-8 w-full">
 				{#each filteredPortfolios as portfolio}
 					<div
 						class="text-center uppercase mb-6"
 						transition:scale={{ duration: 1000, easing: expoInOut }}
 					>
-						<div class="overflow-hidden h-[250px]">
+						<div class="overflow-hidden lg:h-[250px]">
 							<img
 								class="hover:scale-[1.1] w-full h-full object-cover transition cursor-pointer"
 								src={portfolio.img}
 								alt=""
 							/>
 						</div>
-						<p class="text-xl font-bold mt-5 leading-loose">{portfolio.title}</p>
+						<p class="lg:text-xl font-bold mt-5 leading-loose">{portfolio.title}</p>
 						<p class="text-sm tracking-widest text-[#909095]">{portfolio.catergory}</p>
 					</div>
 				{/each}

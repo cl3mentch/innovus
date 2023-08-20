@@ -115,11 +115,11 @@
 			]}
 			loop={true}
 			typeSpeed={50}
-			backSpeed={50}
+			backSpeed={10}
 			showCursor={false}
 		>
-			<div class="text-5xl lg:text-8xl mt-28 lg:max-w-[500px] leading-normal lg:leading-relaxed">
-				<p><span class="typing bg-[#F9BC23]" /></p>
+			<div class="text-3xl lg:text-6xl mt-28 lg:max-w-[800px] leading-normal lg:leading-relaxed lg:text-right">
+				<p><span class="typing bg-[#F9BC23] p-0 lg:p-4" /></p>
 			</div>
 		</TypedJs>
 	</div>
