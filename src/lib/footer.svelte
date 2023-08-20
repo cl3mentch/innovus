@@ -12,64 +12,10 @@
 <footer class="p-5 lg:p-20 py-20 bg-base-200 text-base-content">
 	<div class="lg:flex lg:max-w-[1300px] m-auto">
 		<div class="lg:w-2/5">
-			<label class="swap swap-flip text-9xl">
-				<!-- this hidden checkbox controls the state -->
-				<input type="checkbox" bind:value={isCheckedlogo} />
-				{#if $darktheme}
-					<div class="swap-on">
-						<!-- svelte-ignore a11y-click-events-have-key-events -->
-						<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-						<img
-							src="../INNOVUS-LOGO(Black).png"
-							alt=""
-							class="cursor-pointer w-[150px] lg:w-[250px]"
-							on:click={() => {
-								goto('/');
-							}}
-						/>
-					</div>
-					<div class="swap-off">
-						<!-- svelte-ignore a11y-click-events-have-key-events -->
-						<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-						<img
-							src="../INNOVUS-LOGO(White).png"
-							alt=""
-							width="250px"
-							class="cursor-pointer w-[150px] lg:w-[250px]"
-							on:click={() => {
-								goto('/');
-							}}
-						/>
-					</div>
-				{:else}
-					<div class="swap-off">
-						<!-- svelte-ignore a11y-click-events-have-key-events -->
-						<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-						<img
-							src="../INNOVUS-LOGO(Black).png"
-							alt=""
-							width="250px"
-							class="cursor-pointer w-[150px] lg:w-[250px]"
-							on:click={() => {
-								goto('/');
-							}}
-						/>
-					</div>
-					<div class="swap-on">
-						<!-- svelte-ignore a11y-click-events-have-key-events -->
-						<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-						<img
-							src="../INNOVUS-LOGO(White).png"
-							alt=""
-							width="250px"
-							class="cursor-pointer w-[150px] lg:w-[250px]"
-							on:click={() => {
-								goto('/');
-							}}
-						/>
-					</div>
-				{/if}
-			</label>
+			<div class="flex items-center">
+				<p class="font-alta text-5xl text-color">INNOVUS</p>
+				<img src="/INNOVUS-LOGO.png" alt="logo" class="w-[80px] ml-1" />
+			</div>
 			<p class="lg:max-w-[400px] text-lg leading-9 text-[#888D94]">
 				Innovus provides customized data and digital solutions to help businesses succeed. We
 				prioritize innovation, quality, and customer satisfaction to be your trusted partner.

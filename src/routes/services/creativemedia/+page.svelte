@@ -1,15 +1,14 @@
 <div class="lg:max-w-[1300px] m-auto mb-52 p-5">
+	<p class="service text-sm font-semibold mt-5">S E R V I C E</p>
 	<div class="lg:flex justify-between my-20">
-		<p class="text-3xl font-bold w-1/2">Creative Media</p>
+		<p class="text-5xl font-bold w-1/2">Creative Media</p>
 		<div class="lg:w-2/3 leading-8">
-			<p>
-				Unlock the power of captivating visuals with our expert services. Elevate your brand's
-				identity and messaging through our professional videos and photos, meticulously crafted to
-				enhance your image.
-			</p>
+			<p>Our Creative Media Expertise: Turning Ideas into Visual Realities</p>
 			<p class="mt-3">
-				Our versatile marketing assets are designed to amplify your online presence and draw in
-				customers across diverse platforms.
+				From eye-catching videos to stunning photography and thought-provoking content, our creative
+				media services are designed to elevate your brand's identity and amplify your digital
+				marketing efforts. We understand that every pixel and frame matters, and we're committed to
+				bringing your vision to life with precision and creativity.
 			</p>
 		</div>
 	</div>
@@ -38,7 +37,7 @@
 		/>
 	</div>
 	<div class="lg:flex justify-between my-40">
-		<div class="lg:w-1/2  lg:mr-20">
+		<div class="lg:w-1/2 lg:mr-20">
 			<img
 				src="https://wagnertuning.com/cms/wp-content/uploads/2020/10/DSC05428-scaled-1320x564.jpg"
 				alt=""
@@ -56,10 +55,22 @@
 				Captivate Audiences with Compelling Brand Storytelling with Engaging Visual Content
 			</p>
 			<p class="mb-3 leading-9">
-				With over 2 million websites in their display network, this greatly increases the exposure
-				and reach of your adverts. When using the standard Google Ads platform, ads are only shown
-				to users who visit Google and search for certain keywords
+				Ignite audience engagement through impactful brand storytelling. Seamlessly blend
+				captivating narratives with immersive visual content, creating a powerful connection that
+				resonates and endures.
 			</p>
 		</div>
 	</div>
 </div>
+
+<style>
+	.service::before {
+		content: '';
+		background-color: #3ec6ec;
+		width: 50px;
+		height: 2px;
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 0.5rem;
+	}
+</style>

@@ -5,7 +5,7 @@ export default {
 		extend: {},
 		fontFamily: {
 			poppins: ['Poppins', 'sans-serif'],
-			town60: ['town60', 'sans-serif']
+			alta:['alta','sans-serif']
 		}
 	},
 	plugins: [require('daisyui')],
