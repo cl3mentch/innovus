@@ -1,11 +1,119 @@
-<div class="lg:max-w-[1300px] m-auto mb-52 p-5">
+<div class="lg:max-w-[1300px] m-auto mb-52 p-5 lg:p-0">
+	<p class="service text-sm font-semibold mt-5">S E R V I C E</p>
 	<div class="lg:flex justify-between my-20">
-		<p class="text-3xl font-bold w-1/2">Digital Marketing</p>
-		<p class="lg:w-2/3">
-			We help our clients craft a customised strategy to ensure business goals are met. You can rely
-			on our digital experts at heroes of digital help in your digital marketing.
+		<p class="text-5xl font-bold w-1/2">Digital Marketing</p>
+		<p class="lg:w-1/2">
+			In a world where digital interactions have become the norm, harnessing the potential of
+			digital marketing has never been more crucial for businesses of all sizes. <br /><br />We
+			understand that a holistic digital marketing strategy is the key to expanding your brand's
+			reach, engaging your target audience, and achieving remarkable business growth.
 		</p>
 	</div>
+	<div class="my-32">
+		<p class="text-4xl font-bold text-center">
+			Why Choose Our <span class="text-[#2EC1DF]">Digital Marketing</span>?
+		</p>
+
+		<div class="subbg-color rounded-xl lg:flex mt-20 overflow-hidden lg:h-[400px]">
+			<div class="lg:w-1/2 lg:p-10 m-auto p-5">
+				<p class="text-2xl font-medium text-[#2EC1DF]">Integrated Approach</p>
+				<p class="my-5 lg:max-w-[550px] leading-10">
+					We believe that a successful digital marketing strategy involves seamless integration of
+					various channels. Our team of experts collaborates to create a cohesive plan that ensures
+					your website, social media profiles, email campaigns, and content marketing efforts work
+					in harmony to deliver outstanding results.
+				</p>
+			</div>
+			<img
+				src="
+				https://img.freepik.com/free-photo/senior-young-colleagues-writing-whiteboard_1262-3820.jpg?w=1380&t=st=1692545695~exp=1692546295~hmac=47d74b921d4babee5cfd6de822fc352e017c11dfd7171e1bea2f9ed4221280e9"
+				class="lg:w-1/2 object-cover object-center
+				"
+				alt=""
+			/>
+		</div>
+		<div class="lg:flex lg:space-x-5">
+			<div class="lg:w-1/2">
+				<div class="subbg-color rounded-xl overflow-hidden my-5">
+					<div class="h-[400px] overflow-hidden">
+						<img
+							src="https://img.freepik.com/free-photo/graph-growth-success-improvement-development-business_53876-123895.jpg?w=1380&t=st=1692545732~exp=1692546332~hmac=8552a390d9737048888c66f9cdd6bd2a424ea9786e72808a31a8f1c73908a25c"
+							alt=""
+							class="object-cover object-center w-full h-full"
+						/>
+					</div>
+					<div class="p-5 lg:p-10 m-auto">
+						<p class="text-2xl font-medium text-[#2EC1DF]">Data-Driven Insights</p>
+						<p class="mt-5 lg:max-w-[550px] leading-10">
+							Understanding your audience and their behavior is at the core of effective digital
+							marketing. We leverage data analytics to gain valuable insights into user preferences,
+							behaviors, and interactions. This information empowers us to refine strategies and
+							optimize campaigns for maximum impact.
+						</p>
+					</div>
+				</div>
+				<div class="subbg-color rounded-xl overflow-hidden my-5 p-5 lg:p-10">
+					<div class="h-[100px] overflow-hidden">
+						<img
+							src="https://cdn3d.iconscout.com/3d/premium/thumb/solution-5334050-4463796.png"
+							alt=""
+							class="object-contain object-left w-full h-full"
+						/>
+					</div>
+					<div class="lg:mt-5 m-auto">
+						<p class="text-2xl font-medium text-[#2EC1DF]">Customized Strategies</p>
+						<p class="mt-5 leading-10">
+							We recognize that every business has unique goals and challenges. Our digital
+							marketing solutions are tailor-made to suit your specific needs and objectives.
+							Whether you're aiming for brand awareness, lead generation, or conversion
+							optimization, we craft strategies that align with your business ambitions.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="lg:w-1/2">
+				<div class="subbg-color rounded-xl overflow-hidden my-5 p-5 lg:p-10">
+					<div class="h-[100px] overflow-hidden">
+						<img
+							src="https://cdn3d.iconscout.com/3d/premium/thumb/business-expert-5665587-4745552.png"
+							alt=""
+							class="object-contain object-left w-full h-full"
+						/>
+					</div>
+					<div class="lg:mt-5 m-auto">
+						<p class="text-2xl font-medium text-[#2EC1DF]">Expertise Across Channels</p>
+						<p class="my-5 leading-10">
+							Our expertise extends across a wide spectrum of digital marketing channels. From
+							creating engaging content that resonates with your audience to managing paid
+							advertising campaigns that yield high ROI, we have the skills to drive your success in
+							the digital realm.
+						</p>
+					</div>
+				</div>
+				<div class="subbg-color rounded-xl overflow-hidden my-5 p-5 lg:p-0">
+					<div class="lg:p-10 m-auto">
+						<p class="text-2xl font-medium text-[#2EC1DF]">Continuous Adaptation</p>
+						<p class="mt-5 lg:max-w-[550px] leading-10">
+							Digital marketing is an ever-evolving landscape. Our team is committed to staying
+							up-to-date with the latest industry trends, algorithm changes, and consumer behavior
+							shifts. This ensures that your digital marketing strategies remain effective in an
+							environment that's constantly changing.
+						</p>
+					</div>
+					<div class="h-[380px] overflow-hidden">
+						<img
+							src="https://img.freepik.com/free-photo/people-having-meeting-office-during-pandemic-with-masks_23-2148666366.jpg?w=1380&t=st=1692545907~exp=1692546507~hmac=7c7eca010635ace025d5fad8e6054837d3ac950f2d4b8e19d58ca79b02c7af59"
+							alt=""
+							class="object-cover object-center w-full h-full"
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<p class="text-center text-4xl font-bold">
+		Our <span class="text-[#2EC1DF]">Digital Marketing</span> Services
+	</p>
 	<div class="lg:flex justify-between mt-44">
 		<div class="lg:w-1/2">
 			<div
@@ -31,33 +139,81 @@
 	</div>
 	<div class="lg:flex justify-between my-40">
 		<img
-			src="https://colorlib.com/wp/wp-content/uploads/sites/2/free-dashboard-templates-1.jpg"
+			src="https://elementor.com/marketing/wp-content/uploads/sites/9/2022/02/2022_02_8-Best-Content-Marketing-Examples-To-Inspire-You-in-2022_1200_630-2.jpg"
 			alt=""
 			class="lg:w-1/2 mr-20"
 		/>
 
 		<div class="lg:w-1/2">
 			<div
-				class="bg-gradient-to-r from-[#51C5D4] to-[#2BC1E0] max-w-[280px] rounded-lg py-2 text-white text-center text-sm"
+				class="bg-gradient-to-r from-[#51C5D4] to-[#2BC1E0] max-w-[250px] rounded-lg py-2 text-white text-center text-sm"
 			>
-				M E D I A <span class="mx-2">A D </span>M A N A G E M E N T
+				C O N T E N T <span class="ml-2">M A R K E T I N G</span>
 			</div>
 			<p class="text-4xl my-5 font-semibold leading-[1.3em]">
-				The first and most obvious benefit of the Google display network is its reach.
+				Unlock Your Brand's Potential with Expert Content Marketing Services.
 			</p>
 			<p class="mb-3 leading-9">
-				With over 2 million websites in their display network, this greatly increases the exposure
-				and reach of your adverts. When using the standard Google Ads platform, ads are only shown
-				to users who visit Google and search for certain keywords
+				Produce content that's valuable that offers insights, solutions that is relevant to your
+				audience's interests, and designed to be shareable. This strategy builds your brand's
+				authority, fostering engagement and trust with your audience.
+			</p>
+		</div>
+	</div>
+	<div class="lg:flex justify-between mt-44">
+		<div class="lg:w-1/2">
+			<div
+				class="bg-gradient-to-r from-[#51C5D4] to-[#2BC1E0] max-w-[370px] rounded-lg py-2 text-white text-center text-sm"
+			>
+				P A Y - P E R - C L I C K <span class="ml-2">( P P C )</span>
+				<span class="ml-2">A D V E R T I S I N G</span>
+			</div>
+			<p class="text-4xl my-5 font-semibold leading-[1.3em]">
+				Amplify Your Reach with <br />Pay-Per-Click (PPC) Advertising
+			</p>
+			<p class="mb-3 max-w-[500px] leading-9">
+				Optimize your brand's visibility and returns through precise paid advertising initiatives,
+				utilizing platforms like Google Ads. By targeting specific audiences, you magnify your reach
+				while ensuring a higher return on investment. Harness the power of strategic ad campaigns
+				for impactful outcomes.
+			</p>
+		</div>
+		<!-- svelte-ignore a11y-img-redundant-alt -->
+		<img
+			class="lg:w-1/2"
+			src="https://img.freepik.com/free-photo/influencer-marketing-job-concept_23-2150410555.jpg?w=1380&t=st=1692547398~exp=1692547998~hmac=72337b18938a2a57ce96d8c409f8c3ded1b2326de23d279d145ff1ef9514d0f6"
+			alt=""
+		/>
+	</div>
+	<div class="lg:flex justify-between my-40">
+		<img
+			src="https://www.omnisend.com/blog/wp-content/uploads/2021/12/10-Brilliant-Email-Marketing-Examples-for-Ecommerce-That-We-Love.png"
+			alt=""
+			class="lg:w-1/2 mr-20"
+		/>
+
+		<div class="lg:w-1/2">
+			<div
+				class="bg-gradient-to-r from-[#51C5D4] to-[#2BC1E0] max-w-[220px] rounded-lg py-2 text-white text-center text-sm"
+			>
+				E M A I L <span class="ml-2">M A R K E T I N G</span>
+			</div>
+			<p class="text-4xl my-5 font-semibold leading-[1.3em]">
+				Transform Your Business with Email Marketing Excellence
+			</p>
+			<p class="mb-3 leading-9">
+				Leverage personalized email campaigns to cultivate leads, ensuring their conversion into
+				customers, and to foster customer loyalty through targeted, meaningful communication
+				strategies.
 			</p>
 		</div>
 	</div>
 	<div class="lg:flex justify-between mt-56">
 		<div class="lg:w-1/2">
-			<p
-				class="text-4xl my-5 font-semibold bg-gradient-to-r from-[#51C5D4] to-[#2BC1E0] bg-clip-text text-transparent leading-[1.3em]"
-			>
-				Social Platform <br /><span class="text-black">that we manage</span>
+			<p class="text-4xl my-5 font-semibold leading-[1.3em]">
+				<span class="bg-gradient-to-r from-[#51C5D4] to-[#2BC1E0] bg-clip-text text-transparent"
+					>Social Platform</span
+				> <br />that we manage
 			</p>
 		</div>
 		<div class="lg:w-1/2 grid grid-cols-2 lg:grid-cols-4">
@@ -140,3 +296,15 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	.service::before {
+		content: '';
+		background-color: #3ec6ec;
+		width: 50px;
+		height: 2px;
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 0.5rem;
+	}
+</style>
