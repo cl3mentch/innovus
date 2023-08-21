@@ -13,10 +13,10 @@
 	<div class="lg:flex lg:max-w-[1300px] m-auto">
 		<div class="lg:w-2/5">
 			<div class="flex items-center">
-				<p class="font-alta text-5xl text-color">INNOVUS</p>
-				<img src="/INNOVUS-LOGO.png" alt="logo" class="w-[80px] ml-1" />
+				<p class="font-alta text-3xl lg:text-5xl text-color">INNOVUS</p>
+				<img src="/INNOVUS-LOGO.png" alt="logo" class="w-[40px] lg:w-[80px] ml-1" />
 			</div>
-			<p class="lg:max-w-[400px] text-lg leading-9 text-[#888D94]">
+			<p class="lg:max-w-[400px] text-md lg:text-lg leading-8 text-[#888D94]">
 				Innovus provides customized data and digital solutions to help businesses succeed. We
 				prioritize innovation, quality, and customer satisfaction to be your trusted partner.
 			</p>
@@ -121,6 +121,6 @@
 		<div />
 	</div>
 </footer>
-<div class="footer bg-base-200 flex justify-center text-[#888D94]">
+<div class="footer bg-base-200 flex justify-center text-[#888D94] p-2 bg-color">
 	<p>Copyright 2023 © All rights Reserved. Innovus Data Sdn Bhd (1501953-T)</p>
 </div>

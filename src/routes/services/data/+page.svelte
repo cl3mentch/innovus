@@ -35,7 +35,7 @@
 	<div>
 		<div class="lg:flex items-center">
 			<div class="lg:w-1/2">
-				<p class="lg:w-1/2 service text-sm font-semibold ">V A L U E</p>
+				<p class="lg:w-1/2 service text-sm font-semibold">V A L U E</p>
 				<p class="text-5xl font-bold mt-5 leading-tight">
 					Client Focused,<br /> <span class="text-[#3EC6EC]">Results Driven</span>
 				</p>
@@ -56,35 +56,32 @@
 			</div>
 		</div>
 		<div class=" my-36 lg:grid grid-cols-4 gap-x-4 space-y-20 lg:space-y-0">
-			<div class="text-center ">
+			<div class="text-center">
 				<div
 					class="radial-progress text-[#3EC6EC] transition ease-in"
-					style="--value:90; --size:10rem; --thickness: 0.5rem;"
+					style="--value:100; --size:10rem; --thickness: 0.5rem;"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 24 24"
 						stroke-width="1.5"
 						stroke="black"
-						class="w-20 h-20"
+						class="w-16 h-14"
+						viewBox="0 0 512 512"
+						><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path
+							d="M418.4 157.9c35.3-8.3 61.6-40 61.6-77.9c0-44.2-35.8-80-80-80c-43.4 0-78.7 34.5-80 77.5L136.2 151.1C121.7 136.8 101.9 128 80 128c-44.2 0-80 35.8-80 80s35.8 80 80 80c12.2 0 23.8-2.7 34.1-7.6L259.7 407.8c-2.4 7.6-3.7 15.8-3.7 24.2c0 44.2 35.8 80 80 80s80-35.8 80-80c0-27.7-14-52.1-35.4-66.4l37.8-207.7zM156.3 232.2c2.2-6.9 3.5-14.2 3.7-21.7l183.8-73.5c3.6 3.5 7.4 6.7 11.6 9.5L317.6 354.1c-5.5 1.3-10.8 3.1-15.8 5.5L156.3 232.2z"
+						/></svg
 					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
-						/>
-					</svg>
 				</div>
-				<p class="mt-5 font-bold text-xl">Consistency</p>
+				<p class="mt-5 font-bold text-xl">Resource Allocation</p>
 				<p class="mt-2 text-sm">
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, ea!
+					Allocate resources strategically for networking initiatives, maximizing the value of
+					connections and partnerships.
 				</p>
 			</div>
-			<div class="text-center ">
+			<div class="text-center">
 				<div
 					class="radial-progress text-[#3EC6EC]"
-					style="--value:95; --size:10rem; --thickness: 0.5rem;"
+					style="--value:100; --size:10rem; --thickness: 0.5rem;"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -101,59 +98,53 @@
 						/>
 					</svg>
 				</div>
-				<p class="mt-5 font-bold text-xl">Improvement</p>
+				<p class="mt-5 font-bold text-xl">Process Enhancement</p>
 				<p class="mt-2 text-sm">
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, ea!
+					Streamline processes by identifying bottlenecks and inefficiencies through data analysis.
 				</p>
 			</div>
 			<div class="text-center">
 				<div
 					class="radial-progress text-[#3EC6EC]"
-					style="--value:90; --size:10rem; --thickness: 0.5rem;"
+					style="--value:100; --size:10rem; --thickness: 0.5rem;"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 24 24"
+						viewBox="0 0 64 512"
 						stroke-width="1.5"
 						stroke="black"
-						class="w-20 h-20"
+						class="w-16 h-14"
+						><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path
+							d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V320c0 17.7 14.3 32 32 32s32-14.3 32-32V64zM32 480a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"
+						/></svg
 					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
-						/>
-					</svg>
 				</div>
-				<p class="mt-5 font-bold text-xl">Dummy</p>
+				<p class="mt-5 font-bold text-xl">Risk Mitigation</p>
 				<p class="mt-2 text-sm">
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, ea!
+					Identify potential risks and vulnerabilities through thorough data analysis, enabling
+					proactive risk management.
 				</p>
 			</div>
 			<div class="text-center">
 				<div
 					class="radial-progress text-[#3EC6EC]"
-					style="--value:90; --size:10rem; --thickness: 0.5rem;"
+					style="--value:100; --size:10rem; --thickness: 0.5rem;"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 24 24"
 						stroke-width="1.5"
 						stroke="black"
-						class="w-20 h-20"
+						class="w-16 h-14"
+						viewBox="0 0 448 512"
+						><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path
+							d="M48 24C48 10.7 37.3 0 24 0S0 10.7 0 24V64 350.5 400v88c0 13.3 10.7 24 24 24s24-10.7 24-24V388l80.3-20.1c41.1-10.3 84.6-5.5 122.5 13.4c44.2 22.1 95.5 24.8 141.7 7.4l34.7-13c12.5-4.7 20.8-16.6 20.8-30V66.1c0-23-24.2-38-44.8-27.7l-9.6 4.8c-46.3 23.2-100.8 23.2-147.1 0c-35.1-17.6-75.4-22-113.5-12.5L48 52V24zm0 77.5l96.6-24.2c27-6.7 55.5-3.6 80.4 8.8c54.9 27.4 118.7 29.7 175 6.8V334.7l-24.4 9.1c-33.7 12.6-71.2 10.7-103.4-5.4c-48.2-24.1-103.3-30.1-155.6-17.1L48 338.5v-237z"
+						/></svg
 					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
-						/>
-					</svg>
 				</div>
-				<p class="mt-5 font-bold text-xl">Dummy</p>
+				<p class="mt-5 font-bold text-xl">Competitor Analysis</p>
 				<p class="mt-2 text-sm">
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, ea!
+					Evaluate competitive landscapes using data-driven comparisons, enabling strategic
+					positioning and differentiation.
 				</p>
 			</div>
 		</div>

@@ -43,7 +43,7 @@
 	];
 </script>
 
-<div class="lg:max-w-[1300px] m-auto h-[210vh] lg:h-[140vh]">
+<div class="lg:max-w-[1300px] m-auto h-[210vh] lg:h-[120vh]">
 	<p
 		class="text-center font-bold text-4xl mb-10 bg-gradient-to-r from-[#48C7E7] to-[#1F9BAE] bg-clip-text text-transparent"
 	>

@@ -89,14 +89,19 @@
 </script>
 
 <div class="bg-color transition h-[90vh] relative p-5 lg:p-0">
-	<Particles
+	<!-- <Particles
 		id="tsparticles"
 		class="foo bar absolute lg:w-full h-full "
 		style=""
 		options={particlesConfig}
 		on:particlesLoaded={onParticlesLoaded}
 		{particlesInit}
-	/>
+	/> -->
+	<!-- <img
+		src="https://e7.pngegg.com/pngimages/841/592/png-clipart-blue-smoke-illustration-smoke-transparency-and-translucency-youtube-background-light-smoke-blue-hand-thumbnail.png"
+		alt=""
+		class="absolute lg:w-full h-full"
+	/> -->
 	<div
 		class="font-extrabold lg:max-w-[1300px] m-auto text-color py-10 pt-20 relative flex flex-col lg:flex-row justify-between"
 	>
@@ -118,14 +123,16 @@
 			backSpeed={10}
 			showCursor={false}
 		>
-			<div class="text-3xl lg:text-6xl mt-28 lg:max-w-[800px] leading-normal lg:leading-relaxed lg:text-right">
+			<div
+				class="text-3xl lg:text-6xl mt-28 lg:max-w-[800px] leading-normal lg:leading-relaxed lg:text-right"
+			>
 				<p><span class="typing bg-[#F9BC23] p-0 lg:p-4" /></p>
 			</div>
 		</TypedJs>
 	</div>
 </div>
 <div class="lg:flex flex-wrap text-color icon-color">
-	<div class="lg:w-2/5 overflow-hidden  lg:h-[1300px] ">
+	<div class="lg:w-2/5 overflow-hidden lg:h-[1300px]">
 		<!-- svelte-ignore a11y-img-redundant-alt -->
 		<img src={image} alt="image" class="mt-10 lg:mt-0 object-cover object-center w-full h-full" />
 	</div>
@@ -136,7 +143,7 @@
 			>
 				Our Services
 			</p>
-			<p class="lg:max-w-[200px] text-xl my-5">
+			<p class="lg:max-w-[400px] text-xl my-5">
 				We immerse ourselves in the intricacies of our tasks, meticulously refining every pixel to
 				achieve perfection.
 			</p>
@@ -157,7 +164,9 @@
 						d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"
 					/>
 				</svg>
-				<p class="lg:ml-3 cursor-pointer hover:underline" on:mouseenter={() => changeImage(1)}>Web Development</p>
+				<p class="lg:ml-3 cursor-pointer hover:underline" on:mouseenter={() => changeImage(1)}>
+					Web Development
+				</p>
 			</li>
 			<li class="lg:flex items-center lg:mt-5">
 				<svg
@@ -236,7 +245,9 @@
 						/>
 					</g>
 				</svg>
-				<p class="lg:ml-3 cursor-pointer hover:underline" on:mouseenter={() => changeImage(3)}>Digital Marketing</p>
+				<p class="lg:ml-3 cursor-pointer hover:underline" on:mouseenter={() => changeImage(3)}>
+					Digital Marketing
+				</p>
 			</li>
 			<li class="lg:flex items-center mt-5">
 				<svg
@@ -273,7 +284,9 @@
 						/>
 					</g>
 				</svg>
-				<p class="lg:ml-3 cursor-pointer hover:underline" on:mouseenter={() => changeImage(4)}>Creative Media</p>
+				<p class="lg:ml-3 cursor-pointer hover:underline" on:mouseenter={() => changeImage(4)}>
+					Creative Media
+				</p>
 			</li>
 			<li class="lg:flex items-center mt-5">
 				<svg
@@ -330,15 +343,15 @@
 	<p class="font-black lg:text-7xl text-5xl">What We Do</p>
 </div>
 <div class="subbg-color text-color p-5">
-	<div class="lg:flex justify-center items-center h-[800px]">
+	<div class="lg:flex justify-center items-center lg:h-[800px]">
 		<div class="lg:flex lg:max-w-[1300px]">
 			<div class="mt-28">
-				<p class="text-5xl font-bold">Web Development</p>
-				<p class="text-lg my-10">
+				<p class="text-3xl lg:text-5xl font-bold">Web Development</p>
+				<p class="text-md lg:text-lg my-10">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, provident blanditiis
 					expedita delectus quisquam commodi earum pariatur ducimus aliquam similique!
 				</p>
-				<div class="btn btn-outline btn-warning">Discover More</div>
+				<div class="btn btn-outline btn-warning text-xs">Discover More</div>
 			</div>
 			<div class="mt-10 lg:mt-0">
 				<p class="text-[#CCCCCC] text-7xl mx-3 mb-7 hidden lg:block">01</p>
@@ -354,19 +367,19 @@
 			</div>
 		</div>
 	</div>
-	<hr class="lg:w-[1300px] m-auto" />
+	<hr class="lg:w-[1300px] m-auto my-20" />
 </div>
 <div class="subbg-color text-color px-5 lg:py-40">
-	<div class="lg:max-w-[1300px] lg:flex  justify-center m-auto">
+	<div class="lg:max-w-[1300px] lg:flex justify-center m-auto">
 		<div class="lg:w-2/4">
-			<p class="font-black text-7xl">Our Values</p>
+			<p class="font-black text-3xl lg:text-7xl">Our Values</p>
 		</div>
 		<div class="lg:w-2/4 py-10 lg:py-0">
 			<div class="flex items-center mb-5">
 				<div class="number min-w-[40px]">1</div>
 				<div class="ml-5">
-					<p class="font-bold text-xl">Creativity Unleashed</p>
-					<p class="text-[#838383]">
+					<p class="font-bold text-lg lg:text-xl">Creativity Unleashed</p>
+					<p class="text-[#838383] text-sm">
 						Imagination is our playground. We relish the challenge of turning unique concepts into
 						tangible, visually stunning realities.
 					</p>
@@ -375,8 +388,8 @@
 			<div class="flex items-center mb-5">
 				<div class="number min-w-[40px]">2</div>
 				<div class="ml-5">
-					<p class="font-bold text-xl">Code Craftsmanship</p>
-					<p class="text-[#838383]">
+					<p class="font-bold text-lg lg:text-xl">Code Craftsmanship</p>
+					<p class="text-[#838383] text-sm">
 						Imagination is our playground. We relish the challenge of turning unique concepts into
 						tangible, visually stunning realities.
 					</p>
@@ -385,8 +398,8 @@
 			<div class="flex items-center mb-5">
 				<div class="number min-w-[40px]">3</div>
 				<div class="ml-5">
-					<p class="font-bold text-xl">User-Centric Design</p>
-					<p class="text-[#838383]">
+					<p class="font-bold text-lg lg:text-xl">User-Centric Design</p>
+					<p class="text-[#838383] text-sm">
 						Users are at the heart of everything we do. Our designs are rooted in empathy, ensuring
 						seamless and engaging user experiences.
 					</p>
@@ -395,8 +408,8 @@
 			<div class="flex items-center">
 				<div class="number min-w-[40px]">4</div>
 				<div class="ml-5">
-					<p class="font-bold text-xl">Reliability and Trust</p>
-					<p class="text-[#838383]">
+					<p class="font-bold text-lg lg:text-xl">Reliability and Trust</p>
+					<p class="text-[#838383] text-sm">
 						Building long-lasting relationships is our priority. We are committed to transparency,
 						integrity, and delivering on our promises.
 					</p>

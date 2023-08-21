@@ -102,35 +102,35 @@
 				</div>
 			</div>
 			<div class="lg:w-1/2">
-				<div class="subbg-color rounded-xl overflow-hidden my-5 p-5 lg:p-10">
-					<div class="h-[100px] overflow-hidden">
-						<img src="/data.png" alt="" class="object-contain object-left w-full h-full" />
-					</div>
-					<div class="lg:mt-5 m-auto">
-						<p class="text-2xl font-medium text-[#2EC1DF]">Data-Driven Insights</p>
-						<p class="my-5 leading-10">
-							Our comprehensive SEO approach covers both on-page and off-page optimization. From
-							optimizing your website's structure, content, and keywords to building high-quality
-							backlinks, we leave no stone unturned to enhance your website's authority and
-							relevance.
-						</p>
-					</div>
-				</div>
 				<div class="subbg-color rounded-xl overflow-hidden my-5 p-5 lg:p-0">
-					<div class="lg:p-10 m-auto">
-						<p class="text-2xl font-medium text-[#2EC1DF]">Transparent Collaboration</p>
-						<p class="my-5 lg:max-w-[550px] leading-10">
-							We believe in transparent communication and collaboration. Throughout the SEO process,
-							we keep you updated on our progress, discuss strategies, and make adjustments based on
-							your feedback and evolving market trends.
-						</p>
-					</div>
 					<div class="h-[400px] overflow-hidden">
 						<img
 							src="https://img.freepik.com/free-photo/closeup-view-handshake-two-businessmen-suits-shaking-hands_1163-4891.jpg?w=1380&t=st=1692541417~exp=1692542017~hmac=df0cbd59ff48e7a49334ab1cbcc22a274adf32e618fff1b73335394dd2d09ef7"
 							alt=""
 							class="object-cover object-center w-full h-full"
 						/>
+					</div>
+					<div class="lg:p-10 m-auto">
+						<p class="text-2xl font-medium text-[#2EC1DF]">Transparent Collaboration</p>
+						<p class="my-5 mb-10 lg:max-w-[550px] leading-10">
+							We believe in transparent communication and collaboration. Throughout the SEO process,
+							we keep you updated on our progress, discuss strategies, and make adjustments based on
+							your feedback and evolving market trends.
+						</p>
+					</div>
+				</div>
+				<div class="subbg-color rounded-xl overflow-hidden my-5 p-5 lg:p-10">
+					<div class="h-[100px] overflow-hidden">
+						<img src="/data.png" alt="" class="object-contain object-left w-full h-full" />
+					</div>
+					<div class="lg:mt-5 m-auto">
+						<p class="text-2xl font-medium text-[#2EC1DF]">Data-Driven Insights</p>
+						<p class="mt-5 leading-10">
+							Our comprehensive SEO approach covers both on-page and off-page optimization. From
+							optimizing your website's structure, content, and keywords to building high-quality
+							backlinks, we leave no stone unturned to enhance your website's authority and
+							relevance.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -220,6 +220,15 @@
 					>
 					<p class="font-bold text-lg mt-5 mb-2">Long-Term Results</p>
 					<p>SEO's value compounds over time, building sustainable online presence.</p>
+				</div>
+				<div>
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-20 m-auto" viewBox="0 0 448 512"
+						><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path
+							d="M160 80c0-26.5 21.5-48 48-48h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H208c-26.5 0-48-21.5-48-48V80zM0 272c0-26.5 21.5-48 48-48H80c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V272zM368 96h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H368c-26.5 0-48-21.5-48-48V144c0-26.5 21.5-48 48-48z"
+						/></svg
+					>
+					<p class="font-bold text-lg mt-5 mb-2">Analytics and Insights</p>
+					<p>SEO offers audience insights, aiding informed marketing decisions with data.</p>
 				</div>
 			</div>
 		</div>

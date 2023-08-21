@@ -50,7 +50,7 @@
 				/>
 			</div>
 			<div class="lg:w-1/2 text-white lg:p-10">
-				<div class="bg-[#2be0b3] max-w-[300px] rounded-lg text-center py-2 text-white text-sm">
+				<div class="bg-[#DF4D2F] max-w-[300px] rounded-lg text-center py-2 text-white text-sm">
 					C O R P O R A T E <span class="ml-2">W E B S I T E</span>
 				</div>
 				<p class="text-4xl my-5 font-bold">
@@ -246,6 +246,12 @@
 				class="text-4xl my-5 font-semibold bg-gradient-to-r from-[#51C5D4] to-[#2BC1E0] bg-clip-text text-transparent"
 			>
 				Platform and Language <br /><span class="text-black">that we use</span>
+			</p>
+			<p class="lg:max-w-[550px]">
+				We leverages a specific platform and programming language to create and deliver
+				efficient, tailored software solutions. This strategic combination ensures high-performance
+				applications that align seamlessly with your business needs and provide a seamless user
+				experience.
 			</p>
 		</div>
 		<div class="grid grid-cols-3 gap-4 mt-10 lg:mt-0">

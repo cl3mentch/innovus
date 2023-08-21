@@ -73,7 +73,7 @@
 
 <svelte:window bind:scrollY={y} bind:innerHeight />
 
-<body class="bg-black">
+<body class="bg-color ">
 	<div class="sticky top-0 h-[220vh]">
 		<div
 			class="flex justify-center"
@@ -102,7 +102,7 @@
 			</div> -->
 		</div>
 	</div>
-	<div class="bg-[#1E1E1E] min-h-[400px] w-full text-white flex items-center relative">
+	<div class="subbg-color min-h-[400px] w-full flex items-center relative">
 		<div class="lg:max-w-[1300px] m-auto lg:flex">
 			<div
 				class="lg:w-1/2 text-left bg-gradient-to-r from-[#E63A33] via-purple-500 to-[#38C5E7] bg-clip-text text-transparent text-4xl font-bold"
@@ -172,7 +172,7 @@
 								alt=""
 							/>
 						</div>
-						<p class="lg:text-xl font-bold mt-5 leading-loose">{portfolio.title}</p>
+						<p class="lg:text-xl text-color font-bold mt-5 leading-loose">{portfolio.title}</p>
 						<p class="text-sm tracking-widest text-[#909095]">{portfolio.catergory}</p>
 					</div>
 				{/each}

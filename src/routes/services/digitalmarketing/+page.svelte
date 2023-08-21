@@ -1,4 +1,18 @@
+<!-- svelte-ignore a11y-missing-attribute -->
+<embed
+	src="https://www.youtube.com/embed/J---aiyznGQ?autohide=1&autoplay=1&mute=1&controls=0"
+	wmode="transparent"
+	type="video/mp4"
+	width="100%"
+	height="100%"
+	allow="autoplay; encrypted-media; picture-in-picture"
+	allowfullscreen
+	
+	title="Keyboard Cat"
+/>
 <div class="lg:max-w-[1300px] m-auto mb-52 p-5 lg:p-0">
+	<!-- svelte-ignore a11y-media-has-caption -->
+	<!-- svelte-ignore a11y-missing-attribute -->
 	<p class="service text-sm font-semibold mt-5">S E R V I C E</p>
 	<div class="lg:flex justify-between my-20">
 		<p class="text-5xl font-bold w-1/2">Digital Marketing</p>
@@ -72,6 +86,24 @@
 				</div>
 			</div>
 			<div class="lg:w-1/2">
+				<div class="subbg-color rounded-xl overflow-hidden my-5 p-5 lg:p-0">
+					<div class="h-[400px] overflow-hidden">
+						<img
+							src="https://img.freepik.com/free-photo/people-having-meeting-office-during-pandemic-with-masks_23-2148666366.jpg?w=1380&t=st=1692545907~exp=1692546507~hmac=7c7eca010635ace025d5fad8e6054837d3ac950f2d4b8e19d58ca79b02c7af59"
+							alt=""
+							class="object-cover object-center w-full h-full"
+						/>
+					</div>
+					<div class="lg:p-10 m-auto">
+						<p class="text-2xl font-medium text-[#2EC1DF]">Continuous Adaptation</p>
+						<p class="mt-5 lg:max-w-[550px] leading-10">
+							Digital marketing is an ever-evolving landscape. Our team is committed to staying
+							up-to-date with the latest industry trends, algorithm changes, and consumer behavior
+							shifts. This ensures that your digital marketing strategies remain effective in an
+							environment that's constantly changing.
+						</p>
+					</div>
+				</div>
 				<div class="subbg-color rounded-xl overflow-hidden my-5 p-5 lg:p-10">
 					<div class="h-[100px] overflow-hidden">
 						<img
@@ -82,30 +114,12 @@
 					</div>
 					<div class="lg:mt-5 m-auto">
 						<p class="text-2xl font-medium text-[#2EC1DF]">Expertise Across Channels</p>
-						<p class="my-5 leading-10">
+						<p class="mt-5 leading-10">
 							Our expertise extends across a wide spectrum of digital marketing channels. From
 							creating engaging content that resonates with your audience to managing paid
 							advertising campaigns that yield high ROI, we have the skills to drive your success in
 							the digital realm.
 						</p>
-					</div>
-				</div>
-				<div class="subbg-color rounded-xl overflow-hidden my-5 p-5 lg:p-0">
-					<div class="lg:p-10 m-auto">
-						<p class="text-2xl font-medium text-[#2EC1DF]">Continuous Adaptation</p>
-						<p class="mt-5 lg:max-w-[550px] leading-10">
-							Digital marketing is an ever-evolving landscape. Our team is committed to staying
-							up-to-date with the latest industry trends, algorithm changes, and consumer behavior
-							shifts. This ensures that your digital marketing strategies remain effective in an
-							environment that's constantly changing.
-						</p>
-					</div>
-					<div class="h-[380px] overflow-hidden">
-						<img
-							src="https://img.freepik.com/free-photo/people-having-meeting-office-during-pandemic-with-masks_23-2148666366.jpg?w=1380&t=st=1692545907~exp=1692546507~hmac=7c7eca010635ace025d5fad8e6054837d3ac950f2d4b8e19d58ca79b02c7af59"
-							alt=""
-							class="object-cover object-center w-full h-full"
-						/>
 					</div>
 				</div>
 			</div>
@@ -214,6 +228,10 @@
 				<span class="bg-gradient-to-r from-[#51C5D4] to-[#2BC1E0] bg-clip-text text-transparent"
 					>Social Platform</span
 				> <br />that we manage
+			</p>
+			<p class="lg:max-w-[500px]">
+				We utilize this social media platform as a dynamic tool to efficiently manage and execute
+				our marketing strategies.
 			</p>
 		</div>
 		<div class="lg:w-1/2 grid grid-cols-2 lg:grid-cols-4">

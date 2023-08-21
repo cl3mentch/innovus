@@ -1,9 +1,18 @@
+<script>
+
+</script>
+
 <div class="lg:max-w-[1300px] m-auto p-5 lg:p-0">
 	<div class="lg:flex justify-between">
 		<div class="my-20">
 			<p class="service text-sm font-semibold lg:w-1/2">C O N T A C T</p>
 			<p class="font-bold text-5xl lg:text-8xl">Let's Get in <br />Touch With Us</p>
-			<form action="submit" class="my-10 space-y-5">
+			<form
+				on:submit={(evt) => {
+					sendmail(evt.target['email'].value);
+				}}
+				class="my-10 space-y-5"
+			>
 				<input
 					type="text"
 					placeholder="Name*"
@@ -20,6 +29,7 @@
 					/>
 					<input
 						type="text"
+						name="email"
 						placeholder="Email *"
 						class="input w-full lg:max-w-xs bg-[#F2F2F2]"
 						required
