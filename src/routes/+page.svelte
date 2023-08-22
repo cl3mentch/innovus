@@ -3,6 +3,7 @@
 	// import { loadFull } from 'tsparticles';
 	import { loadSlim } from 'tsparticles-slim';
 	import TypedJs from '@loscrackitos/svelte-typed-js';
+	import Slide from '../lib/slide.svelte';
 
 	let particlesConfig = {
 		particles: {
@@ -89,14 +90,14 @@
 </script>
 
 <div class="bg-color transition h-[90vh] relative p-5 lg:p-0">
-	<!-- <Particles
+	<Particles
 		id="tsparticles"
 		class="foo bar absolute lg:w-full h-full "
 		style=""
 		options={particlesConfig}
 		on:particlesLoaded={onParticlesLoaded}
 		{particlesInit}
-	/> -->
+	/>
 	<!-- <img
 		src="https://e7.pngegg.com/pngimages/841/592/png-clipart-blue-smoke-illustration-smoke-transparency-and-translucency-youtube-background-light-smoke-blue-hand-thumbnail.png"
 		alt=""
@@ -342,34 +343,10 @@
 <div class="h-[500px] flex items-center justify-center py-20 text-color">
 	<p class="font-black lg:text-7xl text-5xl">What We Do</p>
 </div>
-<div class="subbg-color text-color p-5">
-	<div class="lg:flex justify-center items-center lg:h-[800px]">
-		<div class="lg:flex lg:max-w-[1300px]">
-			<div class="mt-28">
-				<p class="text-3xl lg:text-5xl font-bold">Web Development</p>
-				<p class="text-md lg:text-lg my-10">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, provident blanditiis
-					expedita delectus quisquam commodi earum pariatur ducimus aliquam similique!
-				</p>
-				<div class="btn btn-outline btn-warning text-xs">Discover More</div>
-			</div>
-			<div class="mt-10 lg:mt-0">
-				<p class="text-[#CCCCCC] text-7xl mx-3 mb-7 hidden lg:block">01</p>
-				<div class="bg-[#FBBD23] p-5 rounded-lg">
-					<div class="overflow-hidden lg:w-[600px] rounded-lg drop-shadow-2xl">
-						<img
-							src="https://img.freepik.com/free-photo/close-up-man-writing-code-laptop_158595-5169.jpg?w=1380&t=st=1692069798~exp=1692070398~hmac=a4153c6f9620e0469d825722a20bded0b4da0c11ee65221b4931da6d717fe0f2"
-							alt="img"
-							class="object-cover w-full h-full rounded"
-						/>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<hr class="lg:w-[1300px] m-auto my-20" />
+<div class="subbg-color">
+	<Slide />
 </div>
-<div class="subbg-color text-color px-5 lg:py-40">
+<div class="text-color p-5 lg:py-40">
 	<div class="lg:max-w-[1300px] lg:flex justify-center m-auto">
 		<div class="lg:w-2/4">
 			<p class="font-black text-3xl lg:text-7xl">Our Values</p>

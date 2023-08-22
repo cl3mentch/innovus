@@ -1,16 +1,13 @@
 <!-- svelte-ignore a11y-missing-attribute -->
-<embed
-	src="https://www.youtube.com/embed/J---aiyznGQ?autohide=1&autoplay=1&mute=1&controls=0"
-	wmode="transparent"
-	type="video/mp4"
-	width="100%"
-	height="100%"
-	allow="autoplay; encrypted-media; picture-in-picture"
-	allowfullscreen
-	
-	title="Keyboard Cat"
-/>
-<div class="lg:max-w-[1300px] m-auto mb-52 p-5 lg:p-0">
+<div class="h-[70vh] w-full overflow-hidden absolute z-10">
+	<video autoplay loop muted playsinline class="w-full h-full object-cover object-top">
+		<source
+			src="https://firebasestorage.googleapis.com/v0/b/storage-ab0d6.appspot.com/o/digitalmarketing.mp4?alt=media&token=0706f0c2-6bb2-4a8c-a873-4f8b5e2df7f3"
+		/></video
+	>
+</div>
+
+<div class="lg:max-w-[1300px] m-auto mb-52 p-5 lg:p-0 z-20">
 	<!-- svelte-ignore a11y-media-has-caption -->
 	<!-- svelte-ignore a11y-missing-attribute -->
 	<p class="service text-sm font-semibold mt-5">S E R V I C E</p>
