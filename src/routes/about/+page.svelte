@@ -51,7 +51,7 @@
 	</p>
 	<div class="parallax relative">
 		<div class="z-10 absolute top-[76%] lg:flex justify-center">
-			<div class="lg:w-[55%] p-5">
+			<div class="lg:w-[55%] ml-5">
 				<p
 					class="text-6xl lg:text-9xl font-black bg-[#41e2fb] bg-clip-text text-transparent mr-10 text-left"
 				>
@@ -61,7 +61,7 @@
 					>
 				</p>
 			</div>
-			<div class="subbg-color lg:w-[45%] p-5 lg:p-10 rounded-lg shadow-lg text-lg font-light">
+			<div class="subbg-color lg:w-[45%] lg:mr-5 p-5 lg:p-10 rounded-lg shadow-lg text-lg font-light">
 				<small>
 					<p>
 						At INNOVUS, we're not just developers; we're dream weavers, architects of online

@@ -1,5 +1,16 @@
 <script>
+	import emailjs from '@emailjs/browser';
 
+	function sendEmail(e) {
+		emailjs.sendForm('contact_service', 'contact_form', e.target, 'zVZQmtp2y8AfHlqZR').then(
+			(result) => {
+				console.log('SUCCESS!', result.text);
+			},
+			(error) => {
+				console.log('FAILED...', error.text);
+			}
+		);
+	}
 </script>
 
 <div class="lg:max-w-[1300px] m-auto p-5 lg:p-0">
@@ -7,14 +18,10 @@
 		<div class="my-20">
 			<p class="service text-sm font-semibold lg:w-1/2">C O N T A C T</p>
 			<p class="font-bold text-5xl lg:text-8xl">Let's Get in <br />Touch With Us</p>
-			<form
-				on:submit={(evt) => {
-					sendmail(evt.target['email'].value);
-				}}
-				class="my-10 space-y-5"
-			>
+			<form on:submit|preventDefault={sendEmail} class="my-10 space-y-5">
 				<input
 					type="text"
+					name="name"
 					placeholder="Name*"
 					class="input w-full lg:max-w-xs bg-[#F2F2F2]"
 					required
@@ -37,12 +44,13 @@
 				</div>
 				<input type="text" placeholder="Name*" class="input w-full bg-[#F2F2F2] mb-5" required />
 				<textarea
+					name="message"
 					class="textarea bg-[#F2F2F2] w-full"
 					rows="5"
 					placeholder="Your Message"
 					required
 				/>
-				<button class="btn btn-outline btn-warning my-5">Lets Talk</button>
+				<button type="submit" class="btn btn-outline btn-warning my-5">Lets Talk</button>
 			</form>
 		</div>
 		<div

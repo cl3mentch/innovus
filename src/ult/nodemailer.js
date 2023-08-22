@@ -8,7 +8,7 @@ async function sendmail(email, message) {
 		auth: {
 			user: process.env.HOSTINGER_EMAIL,
 			pass: process.env.HOSTINGER_PASSWORD
-		}
+		} 
 	});
 
 	// send mail with defined transport object

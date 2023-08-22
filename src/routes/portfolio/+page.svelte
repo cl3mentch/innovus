@@ -1,6 +1,8 @@
 <script>
 	import { scale } from 'svelte/transition';
 	import { expoInOut } from 'svelte/easing';
+	import { portfolios } from './portfolio';
+
 	let y = 0;
 	let innerHeight;
 
@@ -17,63 +19,25 @@
 		}
 	}
 
-	let selectedCategory = 'All';
+	let selectedCategory = '';
 
+	let filterPortfolios = portfolios;
 
-	let portfolios = [
-		{
-			title: 'Website',
-			img: 'https://img.freepik.com/free-psd/student-discounts-template-design_23-2150570805.jpg?w=1380&t=st=1692246158~exp=1692246758~hmac=485ce9b267010c6b731c76fb1869a5596f15d1c4f5849ad7f8f81c93385e2e6b',
-			catergory: 'Web Development',
-			subcategory: 'Ecommerce Website'
-		},
-		{
-			title: 'Website',
-			img: 'https://img.freepik.com/free-psd/student-discounts-template-design_23-2150570805.jpg?w=1380&t=st=1692246158~exp=1692246758~hmac=485ce9b267010c6b731c76fb1869a5596f15d1c4f5849ad7f8f81c93385e2e6b',
-			catergory: 'Digital Marketing',
-			subcategory: 'Ecommerce Website'
-		},
-		{
-			title: 'Website',
-			img: 'https://img.freepik.com/free-psd/student-discounts-template-design_23-2150570805.jpg?w=1380&t=st=1692246158~exp=1692246758~hmac=485ce9b267010c6b731c76fb1869a5596f15d1c4f5849ad7f8f81c93385e2e6b',
-			catergory: 'Web Development',
-			subcategory: 'Ecommerce Website'
-		},
-		{
-			title: 'Website',
-			img: 'https://img.freepik.com/free-psd/student-discounts-template-design_23-2150570805.jpg?w=1380&t=st=1692246158~exp=1692246758~hmac=485ce9b267010c6b731c76fb1869a5596f15d1c4f5849ad7f8f81c93385e2e6b',
-			catergory: 'Creative Media',
-			subcategory: 'Ecommerce Website'
-		},
-		{
-			title: 'Website',
-			img: 'https://img.freepik.com/free-psd/student-discounts-template-design_23-2150570805.jpg?w=1380&t=st=1692246158~exp=1692246758~hmac=485ce9b267010c6b731c76fb1869a5596f15d1c4f5849ad7f8f81c93385e2e6b',
-			catergory: 'Creative Media',
-			subcategory: 'Ecommerce Website'
-		},
-		{
-			title: 'Website',
-			img: 'https://img.freepik.com/free-psd/student-discounts-template-design_23-2150570805.jpg?w=1380&t=st=1692246158~exp=1692246758~hmac=485ce9b267010c6b731c76fb1869a5596f15d1c4f5849ad7f8f81c93385e2e6b',
-			catergory: 'Web Development',
-			subcategory: 'Ecommerce Website'
-		},
-		{
-			title: 'Website',
-			img: 'https://img.freepik.com/free-psd/student-discounts-template-design_23-2150570805.jpg?w=1380&t=st=1692246158~exp=1692246758~hmac=485ce9b267010c6b731c76fb1869a5596f15d1c4f5849ad7f8f81c93385e2e6b',
-			catergory: 'Digital Marketing',
-			subcategory: 'Ecommerce Website'
+	$: if (selectedCategory) getCatergory();
+
+	const getCatergory = () => {
+		if (selectedCategory === 'All') {
+			return (filterPortfolios = portfolios);
 		}
-	];
-
-	let filteredPortfolios =
-		selectedCategory === 'All'
-			? portfolios
-			: portfolios.filter((portfolio) => portfolio.catergory === selectedCategory);
+		return (filterPortfolios = portfolios.filter((portfolio) => {
+			return portfolio.catergory === selectedCategory;
+		}));
+	};
 </script>
 
 <svelte:window bind:scrollY={y} bind:innerHeight />
 
-<body class="bg-color ">
+<body class="bg-color">
 	<div class="sticky top-0 h-[220vh]">
 		<div
 			class="flex justify-center"
@@ -82,15 +46,16 @@
 		>
 			<div class="absolute text-center z-10 top-[40%] text-white">
 				<p class="text-5xl font-semibold mb-5">Our Portfolio</p>
-				<p class="font-semibold max-w-[460px]">
-					We delivered excellent web solutions to great brands, take a look at some of our work
-					portfolios and the great words of our clients.
+				<p class="font-semibold max-w-[600px]">
+					Discover our diverse portfolio, a showcase of creativity and innovation. From captivating
+					designs to seamless functionality, our projects reflect excellence in web development,
+					digital marketing, and more.
 				</p>
 			</div>
 			<!-- svelte-ignore a11y-media-has-caption -->
 			<video autoplay loop playsinline muted class="w-full h-[100vh] object-cover"
 				><source
-					src="https://v1.cdnpk.net/videvo_files/video/premium/video0293/large_watermarked/_Urban15_FPpreview.mp4"
+					src="https://firebasestorage.googleapis.com/v0/b/storage-ab0d6.appspot.com/o/portfolio%20banner.mp4?alt=media&token=665bad88-d5e5-4440-9d35-ef41fcbaf460"
 				/></video
 			>
 			<!-- <div
@@ -133,12 +98,21 @@
 			>
 				<!-- svelte-ignore a11y-click-events-have-key-events -->
 				<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-				<p class="cursor-pointer hover:text-red-500" on:click={() => selectedCategory = "All"}>All</p>
+				<p
+					class="cursor-pointer hover:text-red-500"
+					on:click={() => {
+						selectedCategory = 'All';
+					}}
+				>
+					All
+				</p>
 				<!-- svelte-ignore a11y-click-events-have-key-events -->
 				<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 				<p
 					class="cursor-pointer hover:text-red-500"
-					on:click={() => selectedCategory = "Web Development"}
+					on:click={() => {
+						selectedCategory = 'Web Development';
+					}}
 				>
 					Web Development
 				</p>
@@ -146,7 +120,9 @@
 				<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 				<p
 					class="cursor-pointer hover:text-red-500"
-					on:click={() => selectedCategory = "Digital Marketing"}
+					on:click={() => {
+						selectedCategory = 'Digital Marketing';
+					}}
 				>
 					Digital Marketing
 				</p>
@@ -154,13 +130,15 @@
 				<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 				<p
 					class="cursor-pointer hover:text-red-500"
-					on:click={() => selectedCategory = "Creative Media"}
+					on:click={() => {
+						selectedCategory = 'Creative Media';
+					}}
 				>
 					Creative Media
 				</p>
 			</div>
 			<div class="grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gaps-8 w-full">
-				{#each filteredPortfolios as portfolio}
+				{#each filterPortfolios as portfolio}
 					<div
 						class="text-center uppercase mb-6"
 						transition:scale={{ duration: 1000, easing: expoInOut }}

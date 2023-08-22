@@ -11,11 +11,11 @@
 				destroy: true,
 			}
 		},
-		gap: '4rem',
+		gap: '6rem',
 		height: '',
 		padding: '4rem',
-		autoplay: true
-		// interval: 2000
+		autoplay: true,
+		interval: 2000
 		// arrows: false
 	};
 </script>

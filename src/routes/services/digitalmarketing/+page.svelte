@@ -1,25 +1,31 @@
 <!-- svelte-ignore a11y-missing-attribute -->
-<div class="h-[70vh] w-full overflow-hidden absolute z-10">
-	<video autoplay loop muted playsinline class="w-full h-full object-cover object-top">
+<div class="h-[90vh] w-full overflow-hidden relative flex justify-center items-center">
+	<div class="absolute text-white lg:max-w-[1300px] text-center z-10">
+		<p class="text-5xl font-bold text-[#2EC1DF]">Digital Marketing</p>
+		<p class="mt-5 leading-loose max-w-[700px]">
+			In a world where digital interactions have become the norm, harnessing the potential of
+			digital marketing has never been more crucial for businesses of all sizes. <br />We understand
+			that a holistic digital marketing strategy is the key to expanding your brand's reach,
+			engaging your target audience, and achieving remarkable business growth.
+		</p>
+	</div>
+	<video
+		autoplay
+		loop
+		muted
+		playsinline
+		class="w-full h-full object-cover object-top brightness-50"
+	>
 		<source
 			src="https://firebasestorage.googleapis.com/v0/b/storage-ab0d6.appspot.com/o/digitalmarketing.mp4?alt=media&token=0706f0c2-6bb2-4a8c-a873-4f8b5e2df7f3"
 		/></video
 	>
 </div>
 
-<div class="lg:max-w-[1300px] m-auto mb-52 p-5 lg:p-0 z-20">
+<div class="lg:max-w-[1300px] m-auto mb-52 p-5 lg:p-0 z-10">
 	<!-- svelte-ignore a11y-media-has-caption -->
 	<!-- svelte-ignore a11y-missing-attribute -->
-	<p class="service text-sm font-semibold mt-5">S E R V I C E</p>
-	<div class="lg:flex justify-between my-20">
-		<p class="text-5xl font-bold w-1/2">Digital Marketing</p>
-		<p class="lg:w-1/2">
-			In a world where digital interactions have become the norm, harnessing the potential of
-			digital marketing has never been more crucial for businesses of all sizes. <br /><br />We
-			understand that a holistic digital marketing strategy is the key to expanding your brand's
-			reach, engaging your target audience, and achieving remarkable business growth.
-		</p>
-	</div>
+
 	<div class="my-32">
 		<p class="text-4xl font-bold text-center">
 			Why Choose Our <span class="text-[#2EC1DF]">Digital Marketing</span>?

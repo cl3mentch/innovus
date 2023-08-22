@@ -4,6 +4,8 @@
 	import { loadSlim } from 'tsparticles-slim';
 	import TypedJs from '@loscrackitos/svelte-typed-js';
 	import Slide from '../lib/slide.svelte';
+	import { fade } from 'svelte/transition';
+	import { images } from './image';
 
 	let particlesConfig = {
 		particles: {
@@ -62,31 +64,41 @@
 		await loadSlim(engine);
 	};
 
-	let image =
-		'https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?w=1380&t=st=1692063922~exp=1692064522~hmac=228e84393c07417e4acd017a56cf185d5a93cad64b641765fd2fd41b39de12bc5';
+	let selectedNumber = '';
 
-	function changeImage(x) {
-		if (x == 1) {
-			return (image =
-				'https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?w=1380&t=st=1692063922~exp=1692064522~hmac=228e84393c07417e4acd017a56cf185d5a93cad64b641765fd2fd41b39de12bc');
+	let currentImage =
+		'https://firebasestorage.googleapis.com/v0/b/storage-ab0d6.appspot.com/o/programming-background-with-person-working-with-codes-computer%20(2).jpg?alt=media&token=63d31f92-9f1b-4aa5-b14e-072846d9a6a3';
+
+	$: if (selectedNumber) getImage();
+	const getImage = () => {
+		for (let image of images) {
+			if (image.number === selectedNumber) {
+				return (currentImage = image.src);
+			}
 		}
-		if (x == 2) {
-			return (image =
-				'https://s40424.pcdn.co/in/wp-content/uploads/2023/04/SEO-Specialist.png.webp');
-		}
-		if (x == 3) {
-			return (image =
-				'https://img.freepik.com/free-photo/african-american-people-analyzing-business-charts-diagrams-laptop-create-startup-presentation-paperwork-report-doing-teamwork-collaboration-plan-research-information_482257-50114.jpg?w=740&t=st=1692341694~exp=1692342294~hmac=8569be9688421c77f5c2b15b1bab505ec57ab8eade348aeb6e47da157fa7ad4a');
-		}
-		if (x == 4) {
-			return (image =
-				'https://img.freepik.com/free-photo/photographer-taking-photo-male-model-studio_23-2148532613.jpg?w=740&t=st=1692341379~exp=1692341979~hmac=46df8538d25d251f16b938e31fb9927dff82975309814f2ebefbb721de7a1793');
-		}
-		if (x == 5) {
-			return (image =
-				'https://img.freepik.com/free-photo/businesswoman-using-tablet-analysis-graph-company-finance-strategy-statistics-success-concept-planning-future-office-room_74952-1410.jpg?w=1380&t=st=1692338712~exp=1692339312~hmac=8dcd879dc44f74d7ab462432f669f81ab5ec4d32a96cb86f095abebacd49f452');
-		}
-	}
+	};
+	// function changeImage(x) {
+	// 	if (x == 1) {
+	// 		return (image =
+	// 			'https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?w=1380&t=st=1692063922~exp=1692064522~hmac=228e84393c07417e4acd017a56cf185d5a93cad64b641765fd2fd41b39de12bc');
+	// 	}
+	// 	if (x == 2) {
+	// 		return (image =
+	// 			'https://s40424.pcdn.co/in/wp-content/uploads/2023/04/SEO-Specialist.png.webp');
+	// 	}
+	// 	if (x == 3) {
+	// 		return (image =
+	// 			'https://img.freepik.com/free-photo/african-american-people-analyzing-business-charts-diagrams-laptop-create-startup-presentation-paperwork-report-doing-teamwork-collaboration-plan-research-information_482257-50114.jpg?w=740&t=st=1692341694~exp=1692342294~hmac=8569be9688421c77f5c2b15b1bab505ec57ab8eade348aeb6e47da157fa7ad4a');
+	// 	}
+	// 	if (x == 4) {
+	// 		return (image =
+	// 			'https://img.freepik.com/free-photo/photographer-taking-photo-male-model-studio_23-2148532613.jpg?w=740&t=st=1692341379~exp=1692341979~hmac=46df8538d25d251f16b938e31fb9927dff82975309814f2ebefbb721de7a1793');
+	// 	}
+	// 	if (x == 5) {
+	// 		return (image =
+	// 			'https://img.freepik.com/free-photo/businesswoman-using-tablet-analysis-graph-company-finance-strategy-statistics-success-concept-planning-future-office-room_74952-1410.jpg?w=1380&t=st=1692338712~exp=1692339312~hmac=8dcd879dc44f74d7ab462432f669f81ab5ec4d32a96cb86f095abebacd49f452');
+	// 	}
+	// }
 </script>
 
 <div class="bg-color transition h-[90vh] relative p-5 lg:p-0">
@@ -135,7 +147,12 @@
 <div class="lg:flex flex-wrap text-color icon-color">
 	<div class="lg:w-2/5 overflow-hidden lg:h-[1300px]">
 		<!-- svelte-ignore a11y-img-redundant-alt -->
-		<img src={image} alt="image" class="mt-10 lg:mt-0 object-cover object-center w-full h-full" />
+		<img
+			transition:fade={{ duration: 300 }}
+			src={currentImage}
+			alt="image"
+			class="mt-10 lg:mt-0 object-cover object-center w-full h-full"
+		/>
 	</div>
 	<div class="lg:w-3/5 subbg-color lg:my-14 px-5 py-14">
 		<div class="lg:flex items-center lg:my-36">
@@ -149,7 +166,7 @@
 				achieve perfection.
 			</p>
 		</div>
-		<ul class="text-3xl font-black lg:mb-52">
+		<ul class="text-3xl lg:text-4xl font-black lg:mb-52">
 			<li class="lg:flex items-center mt-10">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -165,7 +182,12 @@
 						d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"
 					/>
 				</svg>
-				<p class="lg:ml-3 cursor-pointer hover:underline" on:mouseenter={() => changeImage(1)}>
+				<p
+					class="lg:ml-3 cursor-pointer hover:underline"
+					on:mouseenter={() => {
+						selectedNumber = '1';
+					}}
+				>
 					Web Development
 				</p>
 			</li>
@@ -185,7 +207,12 @@
 					/>
 				</svg>
 
-				<p class="lg:ml-3 cursor-pointer hover:underline" on:mouseenter={() => changeImage(2)}>
+				<p
+					class="lg:ml-3 cursor-pointer hover:underline"
+					on:mouseenter={() => {
+						selectedNumber = '2';
+					}}
+				>
 					Search Engine Optimization
 				</p>
 			</li>
@@ -246,7 +273,12 @@
 						/>
 					</g>
 				</svg>
-				<p class="lg:ml-3 cursor-pointer hover:underline" on:mouseenter={() => changeImage(3)}>
+				<p
+					class="lg:ml-3 cursor-pointer hover:underline"
+					on:mouseenter={() => {
+						selectedNumber = '3';
+					}}
+				>
 					Digital Marketing
 				</p>
 			</li>
@@ -285,7 +317,12 @@
 						/>
 					</g>
 				</svg>
-				<p class="lg:ml-3 cursor-pointer hover:underline" on:mouseenter={() => changeImage(4)}>
+				<p
+					class="lg:ml-3 cursor-pointer hover:underline"
+					on:mouseenter={() => {
+						selectedNumber = '4';
+					}}
+				>
 					Creative Media
 				</p>
 			</li>
@@ -333,7 +370,12 @@
 						</g>
 					</g>
 				</svg>
-				<p class="lg:ml-3 cursor-pointer hover:underline" on:mouseenter={() => changeImage(5)}>
+				<p
+					class="lg:ml-3 cursor-pointer hover:underline"
+					on:mouseenter={() => {
+						selectedNumber = '5';
+					}}
+				>
 					Data & Business Analysis
 				</p>
 			</li>
