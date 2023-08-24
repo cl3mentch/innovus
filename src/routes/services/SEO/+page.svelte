@@ -28,11 +28,7 @@
 			</p>
 		</div>
 		<!-- svelte-ignore a11y-img-redundant-alt -->
-		<img
-			class="lg:w-1/2"
-			src="https://img.freepik.com/free-photo/paralyzed-asian-employee-working-call-center-reception-disability-friendly-office-female-operator-wheelchair-user-with-impairment-giving-assistance-customer-service-helpline_482257-43001.jpg?w=1380&t=st=1692537398~exp=1692537998~hmac=e9e1975b5ce9e40b659a5c7a7bbcc78dbffcd8af9960b7a75e0cdf9037d660af"
-			alt=""
-		/>
+		<img class="lg:w-1/2" src="/callcenter.jpg" alt="" />
 	</div>
 	<div class="my-32">
 		<p class="text-4xl font-bold text-center">
@@ -56,7 +52,7 @@
 			</div>
 			<img
 				src="
-			https://img.freepik.com/free-photo/business-strategy-success-target-goals_1421-33.jpg?w=1380&t=st=1692538325~exp=1692538925~hmac=36aaf2f56c01095649b40f6df59e28136c6edfc0e15f5e3a078f78b366528ad6"
+				/rsz_business-strategy-success-target-goals.jpg"
 				class="lg:w-1/2 object-cover object-center
 				"
 				alt=""
@@ -67,7 +63,7 @@
 				<div class="subbg-color rounded-xl overflow-hidden my-5">
 					<div class="h-[400px] overflow-hidden">
 						<img
-							src="https://img.freepik.com/free-photo/business-owner-working-their-strategy_23-2149241288.jpg?w=740&t=st=1692539433~exp=1692540033~hmac=0a77faaff6826e5dc984bc9bd16fbd899ad146472758657c896452d0580f49b4"
+							src="/rsz_business-owner-working-their-strategy.jpg"
 							alt=""
 							class="object-cover object-center w-full h-full"
 						/>
@@ -105,7 +101,7 @@
 				<div class="subbg-color rounded-xl overflow-hidden my-5 p-5 lg:p-0">
 					<div class="h-[400px] overflow-hidden">
 						<img
-							src="https://img.freepik.com/free-photo/closeup-view-handshake-two-businessmen-suits-shaking-hands_1163-4891.jpg?w=1380&t=st=1692541417~exp=1692542017~hmac=df0cbd59ff48e7a49334ab1cbcc22a274adf32e618fff1b73335394dd2d09ef7"
+							src="/rsz_closeup-view-handshake-two-businessmen-suits-shaking-hands.jpg"
 							alt=""
 							class="object-cover object-center w-full h-full"
 						/>

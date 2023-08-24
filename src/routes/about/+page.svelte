@@ -43,7 +43,7 @@
 	];
 </script>
 
-<div class="lg:max-w-[1300px] m-auto h-[210vh] lg:h-[120vh]">
+<div class="lg:max-w-[1300px] m-auto h-[190vh] lg:h-[140vh]">
 	<p
 		class="text-center font-bold text-4xl mb-10 bg-gradient-to-r from-[#48C7E7] to-[#1F9BAE] bg-clip-text text-transparent"
 	>
@@ -61,7 +61,9 @@
 					>
 				</p>
 			</div>
-			<div class="subbg-color lg:w-[45%] lg:mr-5 p-5 lg:p-10 rounded-lg shadow-lg text-lg font-light">
+			<div
+				class="subbg-color lg:w-[45%] lg:mr-5 p-5 lg:p-10 rounded-lg shadow-lg text-lg font-light"
+			>
 				<small>
 					<p>
 						At INNOVUS, we're not just developers; we're dream weavers, architects of online
@@ -232,7 +234,7 @@
 	<div class="lg:w-2/4 overflow-hidden">
 		<img
 			class="h-full w-full object-cover"
-			src="https://img.freepik.com/free-photo/beautiful-stylish-staff-sitting-office-desk-using-laptop-listening-colleague_146671-15600.jpg?w=1380&t=st=1692334721~exp=1692335321~hmac=265e8be2472573e62d23cb039b1141055094dfecb03877527c80dad41f977fc3"
+			src="beautiful-stylish-staff-sitting-office-desk-using-laptop-listening-colleague.jpg"
 			alt=""
 		/>
 	</div>
@@ -365,7 +367,7 @@
 	}
 	.parallax {
 		/* The image used */
-		background-image: url('https://img.freepik.com/free-photo/full-shot-students-studying-indoors_23-2149647036.jpg?w=1380&t=st=1692089283~exp=1692089883~hmac=051c8d8d3f04a2b47734ee8265a1489bee70f872f2e0b46ab5c7e18b64009562');
+		background-image: url('/office.jpg');
 
 		/* Set a specific height */
 		min-height: 500px;

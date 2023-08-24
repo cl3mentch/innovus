@@ -44,7 +44,7 @@
 			<div class="lg:w-1/2 overflow-hidden lg:pr-20">
 				<!-- svelte-ignore a11y-img-redundant-alt -->
 				<img
-					src="https://img.freepik.com/free-vector/business-landing-page-template_52683-28749.jpg?w=1380&t=st=1692326107~exp=1692326707~hmac=f5af8a3ced1c8d41e226ff71de66ba59b7119b2d488eafb39d3625797225f46d"
+					src="/businesslandingpage.jpg"
 					alt=""
 					class="object-cover h-full w-full"
 				/>

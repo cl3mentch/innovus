@@ -33,16 +33,12 @@
 			</p>
 		</div>
 		<!-- svelte-ignore a11y-img-redundant-alt -->
-		<img
-			class="lg:w-1/2"
-			src="https://img.freepik.com/free-photo/man-filming-with-professional-camera-new-movie_23-2149066382.jpg?w=1380&t=st=1692582228~exp=1692582828~hmac=f96a57cf335243fd34abcdf1a8a2e5568656756413fe6ff7283ecc821d8a12dc"
-			alt=""
-		/>
+		<img class="lg:w-1/2" src="/rsz_man-filming-with-professional-camera-new-movie.jpg" alt="" />
 	</div>
 	<div class="lg:flex justify-between my-40">
 		<div class="lg:w-1/2 lg:mr-20">
 			<img
-				src="https://img.freepik.com/free-photo/full-shot-model-posing-indoors_23-2148503550.jpg?w=1380&t=st=1692582034~exp=1692582634~hmac=de912f3ba067330f9190f6621b9920b9cf9ad0bb87029fffcb689c783f59d3e7"
+				src="/rsz_full-shot-model-posing-indoors.jpg"
 				alt=""
 				class="object-contain h-full w-full"
 			/>
@@ -84,14 +80,14 @@
 		<!-- svelte-ignore a11y-img-redundant-alt -->
 		<img
 			class="lg:w-1/2"
-			src="https://img.freepik.com/free-photo/back-view-content-creator-working-home-office-during-night-time-video-editor-home-office_482257-32809.jpg?w=1380&t=st=1692582374~exp=1692582974~hmac=6826a5499f06770805bfcb294f7ca148e5ef7f9a87f13e5a7774a4a7a8ff07d8"
+			src="/back-view-content-creator-working-home-office-during-night-time-video-editor-home-office.jpg"
 			alt=""
 		/>
 	</div>
 	<div class="lg:flex justify-between my-40">
 		<div class="lg:w-1/2 lg:mr-20">
 			<img
-				src="https://img.freepik.com/free-photo/product-photography-shoot-shoes_53876-137635.jpg?w=1380&t=st=1692582542~exp=1692583142~hmac=968c173841548ae99cc74ce26df8b04813ac01bb68b172fff33d2a9664eb3b39"
+				src="/rsz_product-photography-shoot-shoes.jpg"
 				alt=""
 				class="object-contain h-full w-full"
 			/>

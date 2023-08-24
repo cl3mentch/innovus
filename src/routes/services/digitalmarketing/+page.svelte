@@ -42,8 +42,7 @@
 				</p>
 			</div>
 			<img
-				src="
-				https://img.freepik.com/free-photo/senior-young-colleagues-writing-whiteboard_1262-3820.jpg?w=1380&t=st=1692545695~exp=1692546295~hmac=47d74b921d4babee5cfd6de822fc352e017c11dfd7171e1bea2f9ed4221280e9"
+				src="/rsz_senior-young-colleagues-writing-whiteboard.jpg"
 				class="lg:w-1/2 object-cover object-center
 				"
 				alt=""
@@ -54,7 +53,7 @@
 				<div class="subbg-color rounded-xl overflow-hidden my-5">
 					<div class="h-[400px] overflow-hidden">
 						<img
-							src="https://img.freepik.com/free-photo/graph-growth-success-improvement-development-business_53876-123895.jpg?w=1380&t=st=1692545732~exp=1692546332~hmac=8552a390d9737048888c66f9cdd6bd2a424ea9786e72808a31a8f1c73908a25c"
+							src="/graph-growth-success-improvement-development-business.jpg"
 							alt=""
 							class="object-cover object-center w-full h-full"
 						/>
@@ -92,7 +91,7 @@
 				<div class="subbg-color rounded-xl overflow-hidden my-5 p-5 lg:p-0">
 					<div class="h-[400px] overflow-hidden">
 						<img
-							src="https://img.freepik.com/free-photo/people-having-meeting-office-during-pandemic-with-masks_23-2148666366.jpg?w=1380&t=st=1692545907~exp=1692546507~hmac=7c7eca010635ace025d5fad8e6054837d3ac950f2d4b8e19d58ca79b02c7af59"
+							src="/rsz_people-office-during-pandemic-having-meeting-with-masks.jpg"
 							alt=""
 							class="object-cover object-center w-full h-full"
 						/>
@@ -198,7 +197,7 @@
 		<!-- svelte-ignore a11y-img-redundant-alt -->
 		<img
 			class="lg:w-1/2"
-			src="https://img.freepik.com/free-photo/influencer-marketing-job-concept_23-2150410555.jpg?w=1380&t=st=1692547398~exp=1692547998~hmac=72337b18938a2a57ce96d8c409f8c3ded1b2326de23d279d145ff1ef9514d0f6"
+			src="/rsz_influencer-marketing-job-concept.jpg"
 			alt=""
 		/>
 	</div>

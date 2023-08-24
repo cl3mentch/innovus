@@ -8,7 +8,7 @@
 		mediaQuery: 'max',
 		breakpoints: {
 			768: {
-				destroy: true,
+				destroy: true
 			}
 		},
 		gap: '6rem',
@@ -43,7 +43,7 @@
 					<div class="bg-[#FBBD23] p-2 lg:p-5 rounded-lg">
 						<div class="overflow-hidden lg:w-[600px] lg:h-[400px] rounded-lg drop-shadow-2xl">
 							<img
-								src="https://img.freepik.com/free-photo/database-programer-writing-code-terminal-window-using-multiple-monitors-it-agency-office-system-software-developer-typing-database-information-computing-big-data-script_482257-60751.jpg?w=1380&t=st=1692674768~exp=1692675368~hmac=9d642c4b2bd905104e7f5bff93f3b7e55dc8566108540946dd61e0727106e4de"
+								src="/database-programer-writing-code-terminal-window-using-multiple-monitors-it-agency-office-system-software-developer-typing-database-information-computing-big-data-script (2).jpg"
 								alt="img"
 								class="object-cover w-full h-full rounded"
 							/>
@@ -72,7 +72,7 @@
 					<div class="bg-[#FBBD23] p-2 lg:p-5 rounded-lg">
 						<div class="overflow-hidden lg:w-[600px] lg:h-[400px] rounded-lg drop-shadow-2xl">
 							<img
-								src="https://img.freepik.com/free-photo/homepage-concept-with-search-bar_23-2150040204.jpg?w=1380&t=st=1692674461~exp=1692675061~hmac=ebf93e669a0f00f245a24b5d85fd719ac7774ec8906c13d327a2cd5c1059fa49"
+								src="/homepage-concept-with-search-bar.jpg"
 								alt="img"
 								class="object-cover w-full h-full rounded"
 							/>
@@ -100,7 +100,7 @@
 					<div class="bg-[#FBBD23] p-2 lg:p-5 rounded-lg">
 						<div class="overflow-hidden lg:w-[600px] lg:h-[400px] rounded-lg drop-shadow-2xl">
 							<img
-								src="https://img.freepik.com/free-photo/social-media-marketing-concept-marketing-with-applications_23-2150063134.jpg?w=1380&t=st=1692674499~exp=1692675099~hmac=853e97db151364d777335802ae482c7cafadee7f347211255f1d529bd0c03896"
+								src="/social-media-marketing-concept-marketing-with-applications.jpg"
 								alt="img"
 								class="object-cover w-full h-full rounded"
 							/>
@@ -129,7 +129,7 @@
 					<div class="bg-[#FBBD23] p-2 lg:p-5 rounded-lg">
 						<div class="overflow-hidden lg:w-[600px] lg:h-[400px] rounded-lg drop-shadow-2xl">
 							<img
-								src="https://img.freepik.com/free-photo/social-media-concept-composition_23-2150169157.jpg?w=996&t=st=1692674601~exp=1692675201~hmac=e56b3f2eec1fb286d5da8bcc1c65f29b4f66ce890e4fbaeec0ebcf6fbe0dc1a5"
+								src="/social-media-concept-composition.jpg"
 								alt="img"
 								class="object-cover w-full h-full rounded"
 							/>
@@ -158,7 +158,7 @@
 					<div class="bg-[#FBBD23] p-2 lg:p-5 rounded-lg">
 						<div class="overflow-hidden lg:w-[600px] lg:h-[400px] rounded-lg drop-shadow-2xl">
 							<img
-								src="https://img.freepik.com/free-photo/analyzing-statistical-data-with-colleagues_1098-17760.jpg?w=1380&t=st=1692674692~exp=1692675292~hmac=af55c40837c256088dba4777fe58dc863fcb9ea79af765cbc7b7d099f5c88527"
+								src="/analyzing-statistical-data-with-colleagues.jpg"
 								alt="img"
 								class="object-cover w-full h-full rounded"
 							/>
