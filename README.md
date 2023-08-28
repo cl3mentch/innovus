@@ -69,8 +69,12 @@ Some images are stored in at `/static`. To edit images or portfolios, you will n
 ## Configuring Theme Color 
 Go to `tailwind.config.js`, you may find theme configurations under `daisyui` and `themes`
 
-You may define css class inside of the theme object such as `Light` and `Dark`
+You may define css class inside of the theme object such as `Light` and `Dark`, or you could change the types of theme by changing `Light` or `Dark`. If you would like to change the theme color, you may look through [DaisyUI themes](https://daisyui.com/docs/themes/)
 ![image](https://github.com/cl3mentch/innovus/assets/31813377/2c092f75-613e-4401-be86-74f4ac8a5a83)
+
+
+If you are changing theme type, you should first change the theme in `tailwind.config.js` and then go to `src/lib/navbar.svelte`. Find `line 170` and change it accordingly.
+![image](https://github.com/cl3mentch/innovus/assets/31813377/06ba2745-63d8-47e5-9b3a-56f741ee4629)
 
 
 Once css class is defined you may use it in html like this :
@@ -79,7 +83,7 @@ Once css class is defined you may use it in html like this :
 ![image](https://github.com/cl3mentch/innovus/assets/31813377/de903ff9-9908-4fc2-8327-87603ca3098e)
 
 
-If you would like to change the theme color, you may look through [DaisyUI themes](https://daisyui.com/docs/themes/)
+
 
 
 ## Setting up EmailJS
