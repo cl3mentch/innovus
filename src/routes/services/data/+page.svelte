@@ -26,8 +26,8 @@
 			</div>
 		</div>
 		<img
-			class="lg:w-2/3"
-			src="https://img.freepik.com/premium-photo/man-woman-sit-table-with-coffee-cup-woman-suit_905510-1678.jpg?w=740"
+			class="lg:w-[740px]"
+			src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/rsz_man-woman-sit-table-with-coffee-cup-woman-suit.jpg?alt=media&token=80138717-aef3-4652-95d1-00f019120568"
 			alt=""
 		/>
 	</div>
