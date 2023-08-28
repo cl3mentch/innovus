@@ -97,7 +97,7 @@ Step 3 : Go to `Email Templates` tab and click on `Create New Templates`. You ma
 
 ![image](https://github.com/cl3mentch/innovus/assets/31813377/75c2d8c4-4653-43ab-bf6f-b655d610ddcb)
 
-You may customize your email templates based on the dynamic variable to have put in our contact page and make sure it is the same naming both in the email template and the input tag in our contact page.
+You may customize your email templates based on the dynamic variable that has been have put in our contact page and make sure it has the same naming both in the email template in emailjs and the input tag in our contact page.
 
 
 Step 4 : Inserting your emailjs private key to our project. Click on your username on the right corner in emailjs, and copy the private key.
