@@ -47,7 +47,7 @@ To edit images or portfolios, you will need to find `src/routes/image.js` and `s
 
 ```
 //To add image, add this but please remember to change the parameter
-  {
+       {
 		number: 'next number',
 		src: 'your src of image'
 	},
