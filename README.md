@@ -20,10 +20,12 @@ Click on `http://localhost:5173/` to view your website.
 ![image](https://github.com/cl3mentch/innovus/assets/31813377/7ee25007-c035-4474-bb39-ccac7d6abcab)
 
 
+## Svelte Basic
+In Svelte project, you would see `+page.svelte` inside of every folder of routes. The `+page.svelte` is for you to write your content of your website. Click here to learn more about [+page.svelte](https://learn.svelte.dev/tutorial/pages)
 
 
+As for `+layout.svelte` is the layout of the website for you to implement repetitive UI components. For example, navigation bars and footer is existed in every page. Instead of repeating it in each +page.svelte component, we can use a +layout.svelte component that applies to all routes in the same directory. Click here to learn more about [+layout.svelte](https://learn.svelte.dev/tutorial/layouts)
 
-## Routing
 At the heart of SvelteKit is a filesystem-based router. The routes of your app — i.e. the URL paths that users can access — are defined by the directories in your codebase.
 For more information about routing, read here -> https://kit.svelte.dev/docs/routing
 
