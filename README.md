@@ -20,8 +20,8 @@ Click on `http://localhost:5173/` to view your website.
 ## Routing
 At the heart of SvelteKit is a filesystem-based router. The routes of your app — i.e. the URL paths that users can access — are defined by the directories in your codebase:
 For Example -
-*src/routes is the root route
-*src/routes/about creates an /about route
+- src/routes is the root route
+* src/routes/about creates an /about route
 
 ```
 <h1>Hello and welcome to my site!</h1>
