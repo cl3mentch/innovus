@@ -56,7 +56,6 @@ To edit images or portfolios, you will need to find `src/routes/image.js` and `s
         title: 'Title of your portfolio',
         img: 'your src of image',
         catergory: 'Your Catergory',
-        subcategory: 'Your Subcategory'
     },
 ``
 
