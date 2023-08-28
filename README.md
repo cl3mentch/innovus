@@ -42,7 +42,7 @@ For Example :
 
 
 ## Editing images or portfolios
-To edit images or portfolios, you will need to find `src/routes/image.js` and `src/routes/portfolio/portfolio.js`. Once relocated, you would see an image or portfolio object:
+Some images are stored in at `/static`. To edit images or portfolios, you will need to find `src/routes/image.js` and `src/routes/portfolio/portfolio.js`. Once relocated, you would see an image or portfolio object:
 
 
 ```
