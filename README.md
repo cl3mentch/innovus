@@ -82,7 +82,7 @@ Once css class is defined you may use it in html like this :
 If you would like to change the theme color, you may look through [DaisyUI themes](https://daisyui.com/docs/themes/)
 
 
-## Emailing
+## Setting up EmailJS
 In this project, we are using (emailjs)[https://www.emailjs.com/docs/introduction/how-does-emailjs-work/] as our email transporter. Email.js's free tier provides 200 monthly email requests. Understand more on their [email pricing](https://www.emailjs.com/pricing/)
 
 
@@ -106,11 +106,31 @@ Step 4 : Inserting your emailjs private key to our project. Click on your userna
 ![image](https://github.com/cl3mentch/innovus/assets/31813377/20e5723f-d034-43e2-bb15-03524a9154ac)
 
 
-Once copied, go to our project  `src/routes/contact/+page,svelte` and paste the key in `'Your Emailjs Key'`
+Once copied, go to our project  `src/routes/contact/+page.svelte` and paste the key in `'Your Emailjs Key'`
 
 
 ![image](https://github.com/cl3mentch/innovus/assets/31813377/851af635-4a97-463d-802b-5ac927310e79)
 
+
+For more information about emailjs, [click here](https://www.emailjs.com/docs/introduction/how-does-emailjs-work/) 
+
+
+## Setting up Firebase
+We are using Firebase as our cloud storage for our images and videos without having to store them in our project locally as it would cause the file size to be larger.
+
+
+Step 1 : Go create an account in Firebase [here](https://firebase.google.com/)
+
+Step 2 : Once sign in, click on `Go to Console` in your top right corner. Then click on create a project and give a name to your project. 
+
+
+![image](https://github.com/cl3mentch/innovus/assets/31813377/f8c54629-08df-4824-af37-73b333fbfeb3)
+
+
+For Analytics Location, you may select on `Malaysia`, then create project.
+
+
+![image](https://github.com/cl3mentch/innovus/assets/31813377/f08ea986-7c05-4d37-8698-d6bf9974484b)
 
 
 
