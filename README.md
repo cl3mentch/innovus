@@ -116,7 +116,7 @@ For more information about emailjs, [click here](https://www.emailjs.com/docs/in
 
 
 ## Setting up Firebase
-We are using Firebase as our cloud storage for our images and videos without having to store them in our project locally as it would cause the file size to be larger.
+We are using Firebase as our cloud storage for our images and videos without having to store them in our project locally as it would cause the file size to be larger. We are using free tier and the maximum storage allowed is 5GB. Click here to see more about their [pricing plan](https://firebase.google.com/pricing?hl=en&authuser=1&_gl=1*1g9knaq*_ga*NzI4MjU3OTk4LjE2OTI2NjkxNDg.*_ga_CW55HF8NVT*MTY5MzE4OTA4OC41LjEuMTY5MzE5MTUyMi4wLjAuMA..)
 
 
 Step 1 : Go create an account in Firebase [here](https://firebase.google.com/)
@@ -132,6 +132,16 @@ For Analytics Location, you may select on `Malaysia`, then create project.
 
 ![image](https://github.com/cl3mentch/innovus/assets/31813377/f08ea986-7c05-4d37-8698-d6bf9974484b)
 
+
+Step 3  : Click on `Build` -> `Storage`, then click on upload file and select a image or video that you want.
+
+
+![image](https://github.com/cl3mentch/innovus/assets/31813377/4758ddd8-315f-4839-bdff-117c0cb9f4c7)
+
+
+Step 4 : Click on the photo / video that you have uploaded. And click on the provided `image url`. Then you may paste this into our project image tag src.
+
+![image](https://github.com/cl3mentch/innovus/assets/31813377/c613172b-6513-4f79-936e-fdb558d9e298)
 
 
 
