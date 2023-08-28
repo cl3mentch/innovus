@@ -73,7 +73,7 @@ You may define css class inside of the theme object such as `Light` and `Dark`, 
 ![image](https://github.com/cl3mentch/innovus/assets/31813377/2c092f75-613e-4401-be86-74f4ac8a5a83)
 
 
-If you are changing theme type, you should first change the theme in `tailwind.config.js` and then go to `src/lib/navbar.svelte`. Find `line 170` and change it accordingly.
+If you are changing theme type, you should first change the theme in `tailwind.config.js` and then go to `src/lib/navbar.svelte`. Find `line 170` and change `data-toggle-theme`'s parameter to the newly added theme name in your `tailwind.config.js`
 ![image](https://github.com/cl3mentch/innovus/assets/31813377/06ba2745-63d8-47e5-9b3a-56f741ee4629)
 
 
