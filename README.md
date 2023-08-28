@@ -143,7 +143,7 @@ Step 3  : Click on `Build` -> `Storage`, then click on upload file and select a 
 ![image](https://github.com/cl3mentch/innovus/assets/31813377/4758ddd8-315f-4839-bdff-117c0cb9f4c7)
 
 
-Step 4 : Click on the photo / video that you have uploaded. And click on the provided `image url`. Then you may paste this into our project image tag src.
+Step 4 : Click on the photo/video that you have uploaded. And click on the provided `image url`. Then you may paste this into our project image tag src.
 
 ![image](https://github.com/cl3mentch/innovus/assets/31813377/c613172b-6513-4f79-936e-fdb558d9e298)
 
