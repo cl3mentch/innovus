@@ -48,6 +48,8 @@ You may define css class inside of the theme object such as `Light` and `Dark`
 
 
 Once css class is defined you may use it in html like this :
+
+
 ![image](https://github.com/cl3mentch/innovus/assets/31813377/de903ff9-9908-4fc2-8327-87603ca3098e)
 
 
