@@ -6,11 +6,11 @@ Step 2: Open Visual Studio Code
 First go to Download and unzip the folder. Then open Visual Studio Code Go to File -> Open Folder -> Go to Download and find the downloaded project.
 
 ## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've open the project and you need to open your terminal `(Ctrl + Shift + ``)` first install this in your terminal  `npm install` to start a development server. To open
 
 ```bash
-npm run dev
+npm install //install this first
+npm run dev // Once installation is finished then run this
 ```
 
 
