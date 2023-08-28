@@ -77,7 +77,7 @@ If you are changing theme type, you should first change the theme in `tailwind.c
 ![image](https://github.com/cl3mentch/innovus/assets/31813377/06ba2745-63d8-47e5-9b3a-56f741ee4629)
 
 
-Once css class is defined you may use it in html like this :
+You can apply the css class that you have defined in your `tailwind.config.js` and you can use it in html like this :
 
 
 ![image](https://github.com/cl3mentch/innovus/assets/31813377/de903ff9-9908-4fc2-8327-87603ca3098e)
