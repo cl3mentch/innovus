@@ -87,7 +87,7 @@ You can apply the css class that you have defined in your `tailwind.config.js` a
 
 
 ## Setting up EmailJS
-In this project, we are using (emailjs)[https://www.emailjs.com/docs/introduction/how-does-emailjs-work/] as our email transporter. Email.js's free tier provides 200 monthly email requests. Understand more on their [email pricing](https://www.emailjs.com/pricing/)
+In this project, we are using [emailjs](https://www.emailjs.com/docs/introduction/how-does-emailjs-work/) as our email transporter. Email.js's free tier provides 200 monthly email requests. Understand more on their [email pricing](https://www.emailjs.com/pricing/)
 
 
 Step 1 : Create an account in [Email.js](https://dashboard.emailjs.com/sign-up) 
