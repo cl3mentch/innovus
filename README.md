@@ -5,6 +5,9 @@ Step 1: You may click on Code Button, then click on download Zip File.
 Step 2: Open Visual Studio Code
 First go to Download and unzip the folder. Then open Visual Studio Code Go to File -> Open Folder -> Go to Download and find the downloaded project.
 
+
+
+
 ## Developing
 Once you've open the project and you need to open your terminal first install this  `npm install` to start a development server.
 
@@ -15,6 +18,9 @@ npm run dev // Once installation is finished then run this
 
 Click on `http://localhost:5173/` to view your website.
 ![image](https://github.com/cl3mentch/innovus/assets/31813377/7ee25007-c035-4474-bb39-ccac7d6abcab)
+
+
+
 
 
 ## Routing
