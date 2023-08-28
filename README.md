@@ -8,7 +8,7 @@ First go to Download and unzip the folder. Then open Visual Studio Code Go to Fi
 
 
 
-## Developing
+## Setting Up
 Once you've open the project and you need to open your terminal first install this  `npm install` to start a development server.
 
 ```bash
@@ -39,6 +39,27 @@ For Example :
 <a href="/about">About my site</a>
 ```
 ![image](https://github.com/cl3mentch/innovus/assets/31813377/4199ffcc-0709-489f-ba10-af3533ee092d)
+
+
+## Editing images or portfolios
+To edit images or portfolios, you will need to find `src/routes/image.js` and `src/routes/portfolio/portfolio.js`. Once relocated, you would see an image or portfolio object:
+``
+//To add image, add this but please remember to change the parameter
+  {
+		number: 'next number',
+		src: 'your src of image'
+	},
+``
+``
+//To add portfolio, add this but please remember to change the parameters
+    {
+        title: 'Title of your portfolio',
+        img: 'your src of image',
+        catergory: 'Your Catergory',
+        subcategory: 'Your Subcategory'
+    },
+``
+
 
 
 
