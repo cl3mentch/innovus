@@ -252,7 +252,7 @@
 					<div class="drawer-side">
 						<label for="my-drawer-4" class="drawer-overlay" />
 						<div class="lg:flex w-full">
-							<div class="hidden lg:block bg-black text-white lg:w-[60%] h-[100vh] p-10 lg:pl-32">
+							<div class="hidden lg:block bg-black text-white lg:w-[60%] h-[110vh] p-10 lg:pl-32">
 								<!-- svelte-ignore a11y-click-events-have-key-events -->
 								<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 								<img
@@ -321,7 +321,7 @@
 									</p>
 								</div>
 							</div>
-							<div class="lg:w-[40%] h-[100vh] bg-white text-black p-10">
+							<div class="lg:w-[40%] h-[100vh] lg:h-[110vh] bg-white text-black p-10">
 								<div class="flex justify-between items-center lg:relative">
 									<!-- svelte-ignore a11y-click-events-have-key-events -->
 									<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
@@ -351,7 +351,7 @@
 									</label>
 								</div>
 								<div
-									class="text-3xl lg:text-5xl font-black space-y-7 lg:w-1/3 mt-10 lg:mt-[130px] mx-auto"
+									class="text-3xl lg:text-5xl font-black space-y-7 lg:w-1/2 mt-10 lg:mt-[130px] mx-auto"
 								>
 									<!-- svelte-ignore a11y-click-events-have-key-events -->
 									<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
