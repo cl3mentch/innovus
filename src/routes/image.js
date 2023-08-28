@@ -1,7 +1,7 @@
 export const images = [
 	{
 		number: '1',
-		src: 'https://firebasestorage.googleapis.com/v0/b/storage-ab0d6.appspot.com/o/programming-background-with-person-working-with-codes-computer%20(2).jpg?alt=media&token=63d31f92-9f1b-4aa5-b14e-072846d9a6a3'
+		src: 'https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/rsz_2programming-background-with-person-working-with-codes-computer_2_1.jpg?alt=media&token=741a4180-53a8-4523-8d56-ecb46cbff00f'
 	},
 	{
 		number: '2',
@@ -9,7 +9,7 @@ export const images = [
 	},
 	{
 		number: '3',
-		src: 'https://firebasestorage.googleapis.com/v0/b/storage-ab0d6.appspot.com/o/african-american-people-analyzing-business-charts-diagrams-laptop-create-startup-presentation-paperwork-report-doing-teamwork-collaboration-plan-research-information%20(1).jpg?alt=media&token=f1609e3e-0f39-473d-878a-be3d09704678'
+		src: 'https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/rsz_1african-american-people-analyzing-business-charts-diagrams-laptop-create-startup-presentation-paperwork-report-doing-teamwork-collaboration-plan-research-information_1.jpg?alt=media&token=477c6257-9d8c-43d3-a1e5-00ef45fd4172'
 	},
 	{
 		number: '4',
@@ -17,6 +17,6 @@ export const images = [
 	},
 	{
 		number: '5',
-		src: 'https://img.freepik.com/free-photo/businesswoman-using-tablet-analysis-graph-company-finance-strategy-statistics-success-concept-planning-future-office-room_74952-1410.jpg?w=1380&t=st=1692338712~exp=1692339312~hmac=8dcd879dc44f74d7ab462432f669f81ab5ec4d32a96cb86f095abebacd49f452F'
-	},
+		src: 'https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/rsz_1businesswoman-using-tablet-analysis-graph-company-finance-strategy-statistics-success-concept-planning-future-office-room.jpg?alt=media&token=761e0adf-c23a-4f1a-9c0e-6f8a79b590a0'
+	}
 ];

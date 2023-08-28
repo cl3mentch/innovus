@@ -28,7 +28,11 @@
 			</p>
 		</div>
 		<!-- svelte-ignore a11y-img-redundant-alt -->
-		<img class="lg:w-1/2" src="/callcenter.jpg" alt="" />
+		<img
+			class="lg:w-1/2"
+			src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/callcenter.jpg?alt=media&token=f37448e7-0278-41fc-9718-0e0c3baf9f5d"
+			alt=""
+		/>
 	</div>
 	<div class="my-32">
 		<p class="text-4xl font-bold text-center">
@@ -52,7 +56,7 @@
 			</div>
 			<img
 				src="
-				/rsz_business-strategy-success-target-goals.jpg"
+				https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/rsz_business-strategy-success-target-goals.jpg?alt=media&token=cc3af607-30c5-4483-8548-42e56de7473f"
 				class="lg:w-1/2 object-cover object-center
 				"
 				alt=""
@@ -63,7 +67,7 @@
 				<div class="subbg-color rounded-xl overflow-hidden my-5">
 					<div class="h-[400px] overflow-hidden">
 						<img
-							src="/rsz_business-owner-working-their-strategy.jpg"
+							src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/rsz_business-owner-working-their-strategy.jpg?alt=media&token=0e552d0e-a580-415b-b2e3-f34d1dff90cd"
 							alt=""
 							class="object-cover object-center w-full h-full"
 						/>
@@ -101,7 +105,7 @@
 				<div class="subbg-color rounded-xl overflow-hidden my-5 p-5 lg:p-0">
 					<div class="h-[400px] overflow-hidden">
 						<img
-							src="/rsz_closeup-view-handshake-two-businessmen-suits-shaking-hands.jpg"
+							src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/rsz_closeup-view-handshake-two-businessmen-suits-shaking-hands.jpg?alt=media&token=b311ac85-cffa-4cdc-9b15-b82fa67ed6e2"
 							alt=""
 							class="object-cover object-center w-full h-full"
 						/>

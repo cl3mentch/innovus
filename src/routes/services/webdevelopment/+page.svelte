@@ -44,7 +44,7 @@
 			<div class="lg:w-1/2 overflow-hidden lg:pr-20">
 				<!-- svelte-ignore a11y-img-redundant-alt -->
 				<img
-					src="/businesslandingpage.jpg"
+					src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/businesslandingpage.jpg?alt=media&token=b41c93b4-cf70-4fb8-9f88-c00c76b5bec8"
 					alt=""
 					class="object-cover h-full w-full"
 				/>
@@ -209,7 +209,7 @@
 			</div>
 			<div class="lg:w-1/2 lg:ml-20 overflow-hidden mt-10 lg:mt-0">
 				<img
-					src="https://img.freepik.com/free-vector/hipster-man-instagram-puzzle-collection_23-2148706641.jpg?w=740&t=st=1692325556~exp=1692326156~hmac=1ef98b3d544a7948d93a45dc84990afb0b350ac893f17aad47de2279401cf586"
+					src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/10590439_4487283.jpg?alt=media&token=a342c5d6-a044-488b-b67b-b310cef98f43"
 					alt=""
 					class="object-cover h-full w-full"
 				/>
@@ -245,11 +245,11 @@
 			<p
 				class="text-4xl my-5 font-semibold bg-gradient-to-r from-[#51C5D4] to-[#2BC1E0] bg-clip-text text-transparent"
 			>
-				Platform and Language <br /><span class="text-black">that we use</span>
+				Platform and Language <br /><span class="text-base-content">that we use</span>
 			</p>
 			<p class="lg:max-w-[550px]">
-				We leverages a specific platform and programming language to create and deliver
-				efficient, tailored software solutions. This strategic combination ensures high-performance
+				We leverages a specific platform and programming language to create and deliver efficient,
+				tailored software solutions. This strategic combination ensures high-performance
 				applications that align seamlessly with your business needs and provide a seamless user
 				experience.
 			</p>

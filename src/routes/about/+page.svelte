@@ -234,7 +234,7 @@
 	<div class="lg:w-2/4 overflow-hidden">
 		<img
 			class="h-full w-full object-cover"
-			src="beautiful-stylish-staff-sitting-office-desk-using-laptop-listening-colleague.jpg"
+			src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/beautiful-stylish-staff-sitting-office-desk-using-laptop-listening-colleague.jpg?alt=media&token=2427f791-3435-49d4-9747-c5041aa1f7dc"
 			alt=""
 		/>
 	</div>
@@ -367,7 +367,7 @@
 	}
 	.parallax {
 		/* The image used */
-		background-image: url('/office.jpg');
+		background-image: url('https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/office.jpg?alt=media&token=91edb880-4f8d-472a-be7f-844157ad40e1');
 
 		/* Set a specific height */
 		min-height: 500px;

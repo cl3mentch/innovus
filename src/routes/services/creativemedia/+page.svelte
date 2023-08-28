@@ -33,12 +33,16 @@
 			</p>
 		</div>
 		<!-- svelte-ignore a11y-img-redundant-alt -->
-		<img class="lg:w-1/2" src="/rsz_man-filming-with-professional-camera-new-movie.jpg" alt="" />
+		<img
+			class="lg:w-1/2"
+			src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/rsz_man-filming-with-professional-camera-new-movie.jpg?alt=media&token=b2855013-064f-4ad0-b330-74ae11ee540c"
+			alt=""
+		/>
 	</div>
 	<div class="lg:flex justify-between my-40">
 		<div class="lg:w-1/2 lg:mr-20">
 			<img
-				src="/rsz_full-shot-model-posing-indoors.jpg"
+				src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/rsz_full-shot-model-posing-indoors.jpg?alt=media&token=6b20aa02-6799-4a79-8483-1ac8469618ea"
 				alt=""
 				class="object-contain h-full w-full"
 			/>
@@ -80,14 +84,14 @@
 		<!-- svelte-ignore a11y-img-redundant-alt -->
 		<img
 			class="lg:w-1/2"
-			src="/back-view-content-creator-working-home-office-during-night-time-video-editor-home-office.jpg"
+			src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/back-view-content-creator-working-home-office-during-night-time-video-editor-home-office.jpg?alt=media&token=272374ac-2992-4f1f-8b5a-a62b5330fb5e"
 			alt=""
 		/>
 	</div>
 	<div class="lg:flex justify-between my-40">
 		<div class="lg:w-1/2 lg:mr-20">
 			<img
-				src="/rsz_product-photography-shoot-shoes.jpg"
+				src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/rsz_product-photography-shoot-shoes.jpg?alt=media&token=6f21e63b-49ae-41c2-8035-0795c661f77b"
 				alt=""
 				class="object-contain h-full w-full"
 			/>

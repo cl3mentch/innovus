@@ -43,7 +43,7 @@
 					<div class="bg-[#FBBD23] p-2 lg:p-5 rounded-lg">
 						<div class="overflow-hidden lg:w-[600px] lg:h-[400px] rounded-lg drop-shadow-2xl">
 							<img
-								src="/database-programer-writing-code-terminal-window-using-multiple-monitors-it-agency-office-system-software-developer-typing-database-information-computing-big-data-script (2).jpg"
+								src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/database-programer-writing-code-terminal-window-using-multiple-monitors-it-agency-office-system-software-developer-typing-database-information-computing-big-data-script%20(2).jpg?alt=media&token=ace20f7f-11ed-4c5b-8dc5-fdbd641ae3e7"
 								alt="img"
 								class="object-cover w-full h-full rounded"
 							/>
@@ -72,7 +72,7 @@
 					<div class="bg-[#FBBD23] p-2 lg:p-5 rounded-lg">
 						<div class="overflow-hidden lg:w-[600px] lg:h-[400px] rounded-lg drop-shadow-2xl">
 							<img
-								src="/homepage-concept-with-search-bar.jpg"
+								src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/rsz_1homepage-concept-with-search-bar_1.jpg?alt=media&token=69833f03-0900-4251-a9b0-c9f913b95941"
 								alt="img"
 								class="object-cover w-full h-full rounded"
 							/>
@@ -100,7 +100,7 @@
 					<div class="bg-[#FBBD23] p-2 lg:p-5 rounded-lg">
 						<div class="overflow-hidden lg:w-[600px] lg:h-[400px] rounded-lg drop-shadow-2xl">
 							<img
-								src="/social-media-marketing-concept-marketing-with-applications.jpg"
+								src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/rsz_1social-media-marketing-concept-marketing-with-applications_1.jpg?alt=media&token=fe9118d4-be7f-4459-a2e3-8db4679cc61b"
 								alt="img"
 								class="object-cover w-full h-full rounded"
 							/>
@@ -129,7 +129,7 @@
 					<div class="bg-[#FBBD23] p-2 lg:p-5 rounded-lg">
 						<div class="overflow-hidden lg:w-[600px] lg:h-[400px] rounded-lg drop-shadow-2xl">
 							<img
-								src="/social-media-concept-composition.jpg"
+								src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/rsz_1social-media-concept-composition_1.jpg?alt=media&token=f0141ea8-ce11-445e-9431-bbee795bfe2e"
 								alt="img"
 								class="object-cover w-full h-full rounded"
 							/>
@@ -158,7 +158,7 @@
 					<div class="bg-[#FBBD23] p-2 lg:p-5 rounded-lg">
 						<div class="overflow-hidden lg:w-[600px] lg:h-[400px] rounded-lg drop-shadow-2xl">
 							<img
-								src="/analyzing-statistical-data-with-colleagues.jpg"
+								src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/rsz_1analyzing-statistical-data-with-colleagues_1.jpg?alt=media&token=5f88b3f4-52f5-4f4b-80a9-09f58039e8f6"
 								alt="img"
 								class="object-cover w-full h-full rounded"
 							/>

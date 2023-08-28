@@ -65,10 +65,10 @@
 		await loadSlim(engine);
 	};
 
-	let selectedNumber = '';
+	let selectedNumber = '1';
 
 	let currentImage =
-		'https://firebasestorage.googleapis.com/v0/b/storage-ab0d6.appspot.com/o/programming-background-with-person-working-with-codes-computer%20(2).jpg?alt=media&token=63d31f92-9f1b-4aa5-b14e-072846d9a6a3';
+		'https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/rsz_2programming-background-with-person-working-with-codes-computer_2_1.jpg?alt=media&token=741a4180-53a8-4523-8d56-ecb46cbff00f';
 
 	$: if (selectedNumber) getImage();
 	const getImage = () => {
@@ -147,7 +147,7 @@
 </div>
 <div class="lg:flex text-color icon-color">
 	<div class="lg:flex subbg-color w-full">
-		<div class="lg:w-2/5">
+		<div class="lg:w-2/5 lg:h-[1000px]">
 			<!-- svelte-ignore a11y-img-redundant-alt -->
 
 			<img
@@ -158,7 +158,7 @@
 			/>
 		</div>
 		<div class="lg:w-3/5 px-5 pb-12">
-			<div class="lg:flex items-center lg:my-32 ">
+			<div class="lg:flex items-center lg:my-32">
 				<p
 					class="lg:-rotate-90 before:content-[''] before:bg-[#707070] before:w-[50px] before:h-[1px] before:inline-block before:align-middle before:mr-[1rem] font-medium text-2xl lg:mx-20"
 				>

@@ -17,7 +17,7 @@
 		class="w-full h-full object-cover object-top brightness-50"
 	>
 		<source
-			src="https://firebasestorage.googleapis.com/v0/b/storage-ab0d6.appspot.com/o/digitalmarketing.mp4?alt=media&token=0706f0c2-6bb2-4a8c-a873-4f8b5e2df7f3"
+			src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/digitalmarketing%20(1)%20(1).mp4?alt=media&token=b9aaf823-75f0-44c6-ab0e-652cad131710"
 		/></video
 	>
 </div>
@@ -42,7 +42,7 @@
 				</p>
 			</div>
 			<img
-				src="/rsz_senior-young-colleagues-writing-whiteboard.jpg"
+				src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/rsz_senior-young-colleagues-writing-whiteboard.jpg?alt=media&token=371d1e4b-14f1-489c-9f0b-ee7a193663f3"
 				class="lg:w-1/2 object-cover object-center
 				"
 				alt=""
@@ -53,7 +53,7 @@
 				<div class="subbg-color rounded-xl overflow-hidden my-5">
 					<div class="h-[400px] overflow-hidden">
 						<img
-							src="/graph-growth-success-improvement-development-business.jpg"
+							src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/graph-growth-success-improvement-development-business.jpg?alt=media&token=af34b733-d175-4917-849e-62b886fe0478"
 							alt=""
 							class="object-cover object-center w-full h-full"
 						/>
@@ -91,7 +91,7 @@
 				<div class="subbg-color rounded-xl overflow-hidden my-5 p-5 lg:p-0">
 					<div class="h-[400px] overflow-hidden">
 						<img
-							src="/rsz_people-office-during-pandemic-having-meeting-with-masks.jpg"
+							src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/rsz_people-office-during-pandemic-having-meeting-with-masks.jpg?alt=media&token=1bc95537-0c64-49b1-bc75-63ec5a8d3ab6"
 							alt=""
 							class="object-cover object-center w-full h-full"
 						/>
@@ -195,15 +195,11 @@
 			</p>
 		</div>
 		<!-- svelte-ignore a11y-img-redundant-alt -->
-		<img
-			class="lg:w-1/2"
-			src="/rsz_influencer-marketing-job-concept.jpg"
-			alt=""
-		/>
+		<img class="lg:w-1/2" src="/rsz_influencer-marketing-job-concept.jpg" alt="" />
 	</div>
 	<div class="lg:flex justify-between my-40">
 		<img
-			src="https://www.omnisend.com/blog/wp-content/uploads/2021/12/10-Brilliant-Email-Marketing-Examples-for-Ecommerce-That-We-Love.png"
+			src="https://firebasestorage.googleapis.com/v0/b/innovus-cd769.appspot.com/o/10-Brilliant-Email-Marketing-Examples-for-Ecommerce-That-We-Love.png?alt=media&token=163d4099-b81f-472e-88a7-3a3e55a098d1"
 			alt=""
 			class="lg:w-1/2 mr-20"
 		/>
