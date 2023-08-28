@@ -18,5 +18,5 @@ export const images = [
 	{
 		number: '5',
 		src: 'https://img.freepik.com/free-photo/businesswoman-using-tablet-analysis-graph-company-finance-strategy-statistics-success-concept-planning-future-office-room_74952-1410.jpg?w=1380&t=st=1692338712~exp=1692339312~hmac=8dcd879dc44f74d7ab462432f669f81ab5ec4d32a96cb86f095abebacd49f452F'
-	}
+	},
 ];
