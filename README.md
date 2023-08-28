@@ -1,8 +1,11 @@
-## Cloning Repository to your Computer
-You need to create and add SSH Key to your computer, please follow the intruction giving by the tutorial at below:
+## Creating SSH Key
+You need to create and add SSH Key before cloning the repository to your computer, please follow the intruction giving by the tutorial at below:
 ```bash
 https://youtu.be/jfi9n4y-WFo?si=3mDoGN2Vwhiz28rx
 ```
+## Cloning Project 
+You may click 
+![image](https://github.com/cl3mentch/innovus/assets/31813377/c5e03153-8c4e-425e-9701-a7aa4d4a867e)
 
 
 ## Developing
