@@ -82,5 +82,30 @@ Once css class is defined you may use it in html like this :
 If you would like to change the theme color, you may look through [DaisyUI themes](https://daisyui.com/docs/themes/)
 
 
+## Emailing
+In this project, we are using (emailjs)[https://www.emailjs.com/docs/introduction/how-does-emailjs-work/] as our email transporter. Email.js's free tier provides 200 monthly email requests. Understand more on their [email pricing](https://www.emailjs.com/pricing/)
+
+
+Step 1 : Create an account in [Email.js](https://dashboard.emailjs.com/sign-up) 
+
+
+Step 2 : Go to `Email Services` tab and click on `Add New Service`. Then click on which ever email service provider that you are using and give it a `Name` and `Service ID` that you want to name it.
+
+
+Step 3 : Go to `Email Templates` tab and click on `Create New Templates`. You may start adding your dynamic variables to your email template. The dynamic variable has to be the same as the `name` of the input tag. In our project, `src/routes/contact/+page.svelte`, you should be able to find html input tags that has name on it. For example :
+![image](https://github.com/cl3mentch/innovus/assets/31813377/75c2d8c4-4653-43ab-bf6f-b655d610ddcb)
+
+You may customize your email templates based on the dynamic variable to have put in our contact page and make sure it is the same naming both in the email template and the input tag in our contact page.
+
+Step 4 : Inserting your emailjs private key to our project. Click on your username on the right corner in emailjs, and copy the private key.
+![image](https://github.com/cl3mentch/innovus/assets/31813377/20e5723f-d034-43e2-bb15-03524a9154ac)
+
+
+Once copied, go to our project  `src/routes/contact/+page,svelte` and paste the key in `'Your Emailjs Key'`
+![image](https://github.com/cl3mentch/innovus/assets/31813377/851af635-4a97-463d-802b-5ac927310e79)
+
+
+
+
 
 
