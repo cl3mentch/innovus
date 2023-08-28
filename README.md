@@ -43,6 +43,8 @@ For Example :
 
 ## Editing images or portfolios
 To edit images or portfolios, you will need to find `src/routes/image.js` and `src/routes/portfolio/portfolio.js`. Once relocated, you would see an image or portfolio object:
+
+
 ``
 //To add image, add this but please remember to change the parameter
   {
@@ -50,6 +52,8 @@ To edit images or portfolios, you will need to find `src/routes/image.js` and `s
 		src: 'your src of image'
 	},
 ``
+
+
 ``
 //To add portfolio, add this but please remember to change the parameters
     {
