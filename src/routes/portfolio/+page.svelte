@@ -37,15 +37,15 @@
 
 <svelte:window bind:scrollY={y} bind:innerHeight />
 
-<body class="bg-color">
-	<div class="sticky top-0 h-[220vh]">
+<body class=" bg-color">
+	<div class="sticky top-0 h-[220vh] overflow-hidden">
 		<div
 			class="flex justify-center"
 			style:transform="scale({calculate(y, 0, 1 * innerHeight, 1, 1.5)})"
 			style:opacity={calculate(y, 0.7 * innerHeight, 1.8 * innerHeight, 1, 0)}
 		>
 			<div class="absolute text-center z-10 top-[40%] text-white">
-				<p class="text-5xl font-semibold mb-5">Our Portfolio</p>
+				<p class="mb-5 text-5xl font-semibold">Our Portfolio</p>
 				<p class="font-semibold max-w-[600px]">
 					Discover our diverse portfolio, a showcase of creativity and innovation. From captivating
 					designs to seamless functionality, our projects reflect excellence in web development,
@@ -60,7 +60,7 @@
 			>
 			<!-- <div
 				id="img-container"
-				class="flex justify-center items-center"
+				class="flex items-center justify-center"
 				style:transform="scale({calculate(y, 0, 1 * innerHeight, 1, 1.5)})"
 				style:opacity={calculate(y, 0.7 * innerHeight, 1.8 * innerHeight, 1, 0)}
 			>
@@ -75,7 +75,7 @@
 				<p class="mb-3">INNOVUS CREATIVE</p>
 				<p>CRAFT</p>
 			</div>
-			<div class="lg:w-1/2 text-lg lg:ml-10">
+			<div class="text-lg lg:w-1/2 lg:ml-10">
 				<div class="">
 					<p>
 						Innovus provides a comprehensive range of creative services that are strategically
@@ -137,10 +137,10 @@
 					Creative Media
 				</p>
 			</div>
-			<div class="grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gaps-8 w-full">
+			<div class="grid w-full grid-cols-2 gap-4 lg:grid-cols-3 lg:gaps-8">
 				{#each filterPortfolios as portfolio}
 					<div
-						class="text-center uppercase mb-6"
+						class="mb-6 text-center uppercase"
 						transition:scale={{ duration: 1000, easing: expoInOut }}
 					>
 						<div class="overflow-hidden lg:h-[250px]">
@@ -150,7 +150,7 @@
 								alt=""
 							/>
 						</div>
-						<p class="lg:text-xl text-color font-bold mt-5 leading-loose">{portfolio.title}</p>
+						<p class="mt-5 font-bold leading-loose lg:text-xl text-color">{portfolio.title}</p>
 						<p class="text-sm tracking-widest text-[#909095]">{portfolio.catergory}</p>
 					</div>
 				{/each}
